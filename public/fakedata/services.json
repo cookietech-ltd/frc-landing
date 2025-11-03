@@ -1,437 +1,466 @@
 [
   {
     "id": 1,
-    "title": "There are many variations of passages of Lorem.",
+    "title": "Professional Equipment Service & Maintenance",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Equipment diagnostics",
+      "Preventive maintenance",
+      "Repair & replacement",
+      "24/7 emergency support"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Keep your gym equipment in peak condition with our comprehensive service and maintenance programs.",
     "detailsImg": null,
     "img": null,
-    "category": "engine repairing",
+    "imgAlt": "🔧",
+    "category": "service request",
     "duration": "1500"
   },
   {
     "id": 2,
-    "title": "Majority have suffered alteration in some form.",
+    "title": "Custom Quote & Consultation Services",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Equipment pricing quotes",
+      "Gym layout planning",
+      "Budget consultation",
+      "Package recommendations"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Get detailed quotes and expert consultation for your gym equipment and facility needs.",
     "detailsImg": null,
     "img": null,
-    "category": "car repair",
+    "imgAlt": "💰",
+    "category": "quote request",
     "duration": "1700"
   },
   {
     "id": 3,
-    "title": "Excellece in automotive services since 1996.",
+    "title": "OEM Warranty & Extended Protection",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Warranty registration",
+      "Claims processing",
+      "Extended warranty plans",
+      "Parts replacement coverage"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Comprehensive warranty support and protection plans for all your gym equipment investments.",
     "detailsImg": null,
     "img": null,
-    "category": "filters repair",
+    "imgAlt": "🛡️",
+    "category": "oem warranty support",
     "duration": "1900"
   },
   {
     "id": 4,
-    "title": "There are many variations of passages of Lorem.",
+    "title": "Membership Management Solutions",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Member registration",
+      "Payment processing",
+      "Attendance tracking",
+      "Member portal access"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Streamline your gym operations with our comprehensive membership management system.",
     "detailsImg": null,
     "img": null,
-    "category": "tire repair",
+    "imgAlt": "👥",
+    "category": "membership management",
     "duration": "2100"
   },
   {
     "id": 5,
-    "title": "Majority have suffered alteration in some form.",
+    "title": "Fitness Equipment Installation",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Professional installation",
+      "Equipment calibration",
+      "Safety inspections",
+      "Layout optimization"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Expert installation services ensuring your equipment is set up correctly and safely.",
     "detailsImg": null,
     "img": null,
-    "category": "break repair",
+    "imgAlt": "⚙️",
+    "category": "installation",
     "duration": "2400"
   },
   {
     "id": 6,
-    "title": "Excellece in automotive services since 1996.",
+    "title": "Training & Staff Development",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Equipment training",
+      "Safety certification",
+      "Maintenance workshops",
+      "Staff onboarding"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Empower your staff with comprehensive training programs and certifications.",
     "detailsImg": null,
     "img": null,
-    "category": "glass repair",
+    "imgAlt": "📚",
+    "category": "training programs",
     "duration": "2700"
   },
   {
     "id": 7,
-    "title": "Engine Diagnostics",
+    "title": "Facility Design & Planning",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Space optimization",
+      "3D floor planning",
+      "Equipment placement",
+      "Traffic flow analysis"
     ],
-    "desc": "Sagittis purus sit amet volutpat consequat mauris nunc congue nisi",
+    "desc": "Professional gym layout and design services to maximize your space efficiency and member experience.",
     "detailsImg": null,
     "img": null,
-    "category": "glass repair",
+    "imgAlt": "🏗️",
+    "category": "facility planning",
     "duration": "1500"
   },
   {
     "id": 8,
-    "title": "Vehicles Damaged",
+    "title": "Equipment Financing Solutions",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Flexible payment plans",
+      "Lease-to-own options",
+      "Equipment financing",
+      "Budget-friendly packages"
     ],
-    "desc": "Sagittis purus sit amet volutpat consequat mauris nunc congue nisi",
+    "desc": "Affordable financing solutions to help you acquire top-quality gym equipment.",
     "detailsImg": null,
     "img": null,
-    "category": "engine repairing",
+    "imgAlt": "💳",
+    "category": "financing",
     "duration": "1700"
   },
   {
     "id": 9,
-    "title": "Air Conditioning Evac",
+    "title": "Inventory Management System",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Equipment tracking",
+      "Maintenance scheduling",
+      "Parts inventory",
+      "Asset management"
     ],
-    "desc": "Sagittis purus sit amet volutpat consequat mauris nunc congue nisi",
+    "desc": "Keep track of all your gym assets and maintenance schedules in one centralized system.",
     "detailsImg": null,
     "img": null,
-    "category": "engine repairing",
+    "imgAlt": "📊",
+    "category": "inventory management",
     "duration": "1900"
   },
   {
     "id": 10,
-    "title": "Anti Lock Brake Service",
+    "title": "Safety Compliance & Inspections",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Safety audits",
+      "Code compliance",
+      "Risk assessments",
+      "Certification support"
     ],
-    "desc": "Sagittis purus sit amet volutpat consequat mauris nunc congue nisi",
+    "desc": "Ensure your gym meets all safety standards and regulatory requirements.",
     "detailsImg": null,
     "img": null,
-    "category": "engine repairing",
+    "imgAlt": "✅",
+    "category": "safety compliance",
     "duration": "2100"
   },
   {
     "id": 11,
-    "title": "Computer Diagnostics",
+    "title": "Digital Fitness Solutions",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Mobile app integration",
+      "Virtual training",
+      "Performance tracking",
+      "Digital workout plans"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Modern digital solutions to enhance your members' fitness journey and engagement.",
     "detailsImg": null,
     "img": null,
-    "category": "engine repairing",
+    "imgAlt": "📱",
+    "category": "digital solutions",
     "duration": "1500"
   },
   {
     "id": 12,
-    "title": "Performance Upgrades",
+    "title": "Equipment Upgrades & Modernization",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Technology upgrades",
+      "Equipment replacement",
+      "Modernization planning",
+      "Trade-in programs"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Keep your gym current with the latest equipment upgrades and modernization services.",
     "detailsImg": null,
     "img": null,
-    "category": "car repair",
+    "imgAlt": "⬆️",
+    "category": "equipment upgrades",
     "duration": "1900"
   },
   {
     "id": 13,
-    "title": "Car Wash & Cleaning",
+    "title": "Facility Cleaning & Sanitation",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Deep cleaning services",
+      "Sanitization protocols",
+      "Equipment cleaning",
+      "Maintenance supplies"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Professional cleaning and sanitation services to maintain a healthy gym environment.",
     "detailsImg": null,
     "img": null,
-    "category": "car repair",
+    "imgAlt": "🧼",
+    "category": "facility maintenance",
     "duration": "2100"
   },
   {
     "id": 14,
-    "title": "Choose your Repairs",
+    "title": "Custom Service Packages",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Tailored solutions",
+      "Flexible service plans",
+      "Priority support",
+      "Custom maintenance schedules"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Create a service package that perfectly fits your gym's unique needs and budget.",
     "detailsImg": null,
     "img": null,
-    "category": "car repair",
+    "imgAlt": "🎯",
+    "category": "custom packages",
     "duration": "1500"
   },
   {
     "id": 15,
-    "title": "Free Consultancy",
+    "title": "Free Initial Consultation",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Needs assessment",
+      "Equipment evaluation",
+      "Budget planning",
+      "Solution recommendations"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Get expert advice and comprehensive assessment of your gym's needs at no cost.",
     "detailsImg": null,
     "img": null,
-    "category": "filters repair",
+    "imgAlt": "🤝",
+    "category": "consultation",
     "duration": "1700"
   },
   {
     "id": 16,
-    "title": "Emergency Time",
+    "title": "24/7 Emergency Support",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Round-the-clock availability",
+      "Emergency repairs",
+      "Rapid response team",
+      "Priority service"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Immediate assistance whenever you need it with our 24/7 emergency support services.",
     "detailsImg": null,
     "img": null,
-    "category": "filters repair",
+    "imgAlt": "🚨",
+    "category": "emergency support",
     "duration": "1900"
   },
   {
     "id": 17,
-    "title": "Performance Upgrades",
+    "title": "Performance Analytics & Reporting",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Equipment usage tracking",
+      "Performance metrics",
+      "Maintenance reports",
+      "ROI analysis"
     ],
-    "desc": "Lorem ipsum dolor sit amet, consect",
+    "desc": "Data-driven insights to optimize your gym operations and equipment performance.",
     "detailsImg": null,
     "img": null,
-    "category": "filters repair",
+    "imgAlt": "📈",
+    "category": "analytics",
     "duration": "2100"
   },
   {
     "id": 18,
-    "title": "Anti Lock Break",
+    "title": "Quality Assurance Programs",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Regular quality checks",
+      "Performance testing",
+      "Calibration services",
+      "Compliance monitoring"
     ],
-    "desc": "Lorem ipsum dolor sit amet, consect.",
+    "desc": "Comprehensive quality assurance to ensure your equipment performs at its best.",
     "detailsImg": null,
     "img": null,
-    "category": "filters repair",
+    "imgAlt": "🏅",
+    "category": "quality assurance",
     "duration": "1500"
   },
   {
     "id": 19,
-    "title": "Crash Car Repair",
+    "title": "Equipment Relocation Services",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Safe equipment moving",
+      "Facility relocation",
+      "Setup at new location",
+      "Minimal downtime"
     ],
-    "desc": "Lorem ipsum dolor sit amet, consect",
+    "desc": "Professional relocation services for moving your gym equipment safely and efficiently.",
     "detailsImg": null,
     "img": null,
-    "category": "filters repair",
+    "imgAlt": "🚚",
+    "category": "relocation",
     "duration": "1700"
   },
   {
     "id": 20,
-    "title": "MARKET RESEARCH",
+    "title": "Market Research & Analysis",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Market trend analysis",
+      "Competitor research",
+      "Equipment recommendations",
+      "Investment insights"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Data-driven market research to help you make informed decisions about your gym equipment investments.",
     "detailsImg": null,
     "img": null,
-    "category": "tire repair",
+    "imgAlt": "🔍",
+    "category": "market research",
     "duration": "1900"
   },
   {
     "id": 21,
-    "title": "Body Color",
+    "title": "Branding & Custom Design",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Custom equipment colors",
+      "Logo integration",
+      "Brand consistency",
+      "Facility aesthetics"
     ],
-    "desc": "Lorem ipsum dolor sit amet, consect icing elit, sed do eiusmod tempor",
+    "desc": "Personalize your gym equipment and space to reflect your unique brand identity.",
     "detailsImg": null,
     "img": null,
-    "category": "tire repair",
+    "imgAlt": "🎨",
+    "category": "branding",
     "duration": "2100"
   },
   {
     "id": 22,
-    "title": "Glass Change",
+    "title": "Display & Monitor Solutions",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Screen installation",
+      "Digital signage",
+      "Entertainment systems",
+      "Interactive displays"
     ],
-    "desc": "Lorem ipsum dolor sit amet, consect icing elit, sed do eiusmod tempor",
+    "desc": "Modern display solutions to enhance member engagement and facility communication.",
     "detailsImg": null,
     "img": null,
-    "category": "tire repair",
+    "imgAlt": "📺",
+    "category": "display solutions",
     "duration": "2100"
   },
   {
     "id": 23,
-    "title": "Air Condition Repair",
+    "title": "Climate Control & Ventilation",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "HVAC optimization",
+      "Air quality management",
+      "Temperature control",
+      "Ventilation systems"
     ],
-    "desc": "Lorem ipsum dolor sit amet, consect icing elit, sed do eiusmod tempor",
+    "desc": "Ensure optimal comfort with professional climate control and ventilation services.",
     "detailsImg": null,
     "img": null,
-    "category": "tire repair",
+    "imgAlt": "🌡️",
+    "category": "climate control",
     "duration": "2100"
   },
   {
     "id": 24,
-    "title": "Tires Repair",
+    "title": "Flooring & Surface Solutions",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Rubber flooring installation",
+      "Surface maintenance",
+      "Anti-slip treatments",
+      "Protective coatings"
     ],
-    "desc": "Lorem ipsum dolor sit amet, consect icing elit, sed do eiusmod tempor",
+    "desc": "Quality flooring solutions designed for durability and safety in high-traffic gym environments.",
     "detailsImg": null,
     "img": null,
-    "category": "tire repair",
+    "imgAlt": "🏋️",
+    "category": "flooring solutions",
     "duration": "2100"
   },
   {
     "id": 25,
-    "title": "Pure Diagnostic",
+    "title": "Equipment Diagnostics & Testing",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Performance diagnostics",
+      "Load testing",
+      "Electrical testing",
+      "Mechanical inspections"
     ],
-    "desc": "Lorem ipsum dolor sit amet, consect icing elit, sed do eiusmod tempor",
+    "desc": "Comprehensive diagnostic services to identify and resolve equipment issues before they become problems.",
     "detailsImg": null,
     "img": null,
-    "category": "break repair",
+    "imgAlt": "🔬",
+    "category": "diagnostics",
     "duration": "2100"
   },
   {
     "id": 26,
-    "title": "Engine Lock",
+    "title": "Access Control Systems",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Keycard systems",
+      "Biometric access",
+      "Member check-in",
+      "Security integration"
     ],
-    "desc": "Lorem ipsum dolor sit amet, consect icing elit, sed do eiusmod tempor",
+    "desc": "Modern access control solutions to secure your facility and streamline member access.",
     "detailsImg": null,
     "img": null,
-    "category": "break repair",
+    "imgAlt": "🔐",
+    "category": "access control",
     "duration": "2100"
   },
   {
     "id": 27,
-    "title": "All Kind Brand",
+    "title": "Multi-Brand Equipment Support",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "All major brands serviced",
+      "Cross-brand expertise",
+      "Universal parts sourcing",
+      "Brand-agnostic support"
     ],
-    "desc": "Lorem ipsum dolor sit ame it, consectetur adipisicing elit, sed do eiusmod te mp or incididunt ut labore.",
+    "desc": "Expert support for all major fitness equipment brands under one service provider.",
     "detailsImg": null,
     "img": null,
-    "category": "break repair",
+    "imgAlt": "🏆",
+    "category": "multi-brand support",
     "duration": "2100"
   },
   {
     "id": 28,
-    "title": "Brake Fluid Exchange",
+    "title": "Preventive Maintenance Programs",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Regular maintenance schedules",
+      "Preventive inspections",
+      "Lubrication services",
+      "Component replacement"
     ],
-    "desc": "Lorem ipsum dolor sit ame it, consectetur adipisicing elit, sed do eiusmod te mp or incididunt ut labore.",
+    "desc": "Proactive maintenance programs to extend equipment life and prevent costly breakdowns.",
     "detailsImg": null,
     "img": null,
-    "category": "break repair",
+    "imgAlt": "🔧",
+    "category": "preventive maintenance",
     "duration": "2100"
   },
   {
     "id": 29,
-    "title": "Maintenance Package",
+    "title": "Comprehensive Service Packages",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "All-inclusive maintenance",
+      "Priority scheduling",
+      "Discounted services",
+      "Extended coverage"
     ],
-    "desc": "Lorem ipsum dolor sit ame it, consectetur adipisicing elit, sed do eiusmod te mp or incididunt ut labore.",
+    "desc": "Complete service packages offering the best value and peace of mind for your gym operations.",
     "detailsImg": null,
     "img": null,
-    "category": "glass repair",
+    "imgAlt": "📦",
+    "category": "service packages",
     "duration": "2100"
   }
 ]

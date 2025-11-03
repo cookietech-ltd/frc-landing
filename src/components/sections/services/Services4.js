@@ -11,10 +11,10 @@ const Services4 = () => {
           <div className="col-lg-12">
             <div className="section-title-area ltn__section-title-2 text-center">
               <h6 className="section-subtitle ltn__secondary-color">
-                {"//"} features {"//"}
+                {"//"} Our Features {"//"}
               </h6>
               <h1 className="section-title">
-                Why Choose Us<span>.</span>
+                Why Choose FRC Gym Management<span>.</span>
               </h1>
             </div>
           </div>

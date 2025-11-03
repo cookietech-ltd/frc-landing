@@ -21,10 +21,10 @@ const Services1 = ({ isPrimary }) => {
             <div className="col-lg-12">
               <div className="section-title-area ltn__section-title-2 text-center">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  {"//"} Service
+                  {"//"} Our Services
                 </h6>
                 <h1 className="section-title">
-                  What We Do<span>.</span>
+                  Comprehensive Gym Management Solutions<span>.</span>
                 </h1>
               </div>
             </div>

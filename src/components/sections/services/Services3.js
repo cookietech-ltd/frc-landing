@@ -14,16 +14,15 @@ const Services3 = () => {
             <div className="section-title-area ltn__section-title-2 section-title-style-3">
               <div className="section-brief-in">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                  Professional gym equipment management and comprehensive support services designed to keep your facility running at peak performance
                 </p>
               </div>
               <div className="section-title-in">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  {"//"} Why Choose Us
+                  {"//"} Why Choose FRC
                 </h6>
                 <h1 className="section-title">
-                  Get Extra Benifits<span>.</span>
+                  Premium Benefits & Services<span>.</span>
                 </h1>
               </div>
             </div>
