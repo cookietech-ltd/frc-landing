@@ -16,12 +16,8 @@ const IndexMain = () => {
       <Features />
       <About1 />
       <Services1 />
-      <CounterUp />
-      <Team1 />
-      <Portfolio1 />
       <CallToaction />
       <Brands />
-      <Blogs2 />
     </main>
 
   );
