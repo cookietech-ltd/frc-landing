@@ -16,9 +16,6 @@ const IndexMain = () => {
       <Features />
       <About1 />
       <ServicesSlider isPrimary={true} />
-      <CounterUp />
-      <Team1 />
-      <Portfolio1 />
       <CallToaction />
       <Brands />
       <Blogs2 />
