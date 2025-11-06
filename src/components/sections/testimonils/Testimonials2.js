@@ -14,7 +14,7 @@ const Testimonials2 = ({ type }) => {
   }, [type]);
   return (
     <div
-      className={`ltn__testimonial-area ltn__testimonial-4 pt-115 pb-100 plr--9`}
+      className={`ltn__testimonial-area ltn__testimonial-4 pt-300 pb-100 plr--9`}
     >
       <div className="container-fluid">
         <div className="row">

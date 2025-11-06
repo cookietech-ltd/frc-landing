@@ -59,7 +59,8 @@ const ProductCardPrimary = ({ product, isShowDisc }) => {
                 <i className="far fa-eye"></i>
               </Link>
             </li>{" "}
-            <li>
+            {/* Hidden for now - Add to Cart */}
+            {/* <li>
               <Link
                 onClick={(e) => {
                   e.preventDefault();
@@ -76,7 +77,7 @@ const ProductCardPrimary = ({ product, isShowDisc }) => {
               >
                 <i className="fas fa-shopping-cart"></i>
               </Link>
-            </li>{" "}
+            </li>{" "} */}
             <li>
               <Link
                 onClick={(e) => {
@@ -95,7 +96,8 @@ const ProductCardPrimary = ({ product, isShowDisc }) => {
         </div>
       </div>
       <div className="product-info">
-        <div className="product-ratting">
+        {/* Hidden for now - Rating */}
+        {/* <div className="product-ratting">
           <ul>
             <li>
               <Link href="#">
@@ -123,7 +125,7 @@ const ProductCardPrimary = ({ product, isShowDisc }) => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
         <h2 className="product-title">
           <Link href={`/products/${id}`}>{title}</Link>
         </h2>

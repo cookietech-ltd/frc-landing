@@ -55,7 +55,8 @@ const ProductCard = ({ product }) => {
                 <i className="far fa-eye"></i>
               </Link>
             </li>
-            <li>
+            {/* Hidden for now - Add to Cart */}
+            {/* <li>
               <Link
                 onClick={(e) => {
                   e.preventDefault();
@@ -72,7 +73,7 @@ const ProductCard = ({ product }) => {
               >
                 <i className="fas fa-shopping-cart"></i>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 onClick={(e) => {

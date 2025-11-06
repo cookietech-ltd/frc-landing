@@ -1,5 +1,5 @@
 import Image from "next/image";
-import serviceImage11 from "@/assets/img/service/11.jpg";
+import serviceImage11 from "@/assets/img/service/fitness-equipment-repair_orig.jpg";
 import Link from "next/link";
 
 const About4 = () => {
@@ -22,18 +22,15 @@ const About4 = () => {
                   We are Qualified & Professional<span>.</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                Fitness Equipment Installation, Movement, Delivery and Service
                 </p>
               </div>
               <div className="about-us-info-wrap-inner about-us-info-devide">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                We understand the hassle of doing the job on your own and the risks involved in moving expensive fitness equipment. Let our highly skilled fitness equipment technicians do the job for you! 
+​Our highly trained professional installers can do any installation, move or deliver. No job too big or too small!
+
+We are now offering servicing calls for your commercial and home fitness equipment! Cleaning, preventative maintenance, repairs or replacements. 
                 </p>
                 <div className="list-item-with-icon">
                   <ul>

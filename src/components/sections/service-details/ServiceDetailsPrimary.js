@@ -3,7 +3,7 @@ import { useParams } from "next/navigation";
 import getAllServices from "@/libs/getAllServices";
 import Image from "next/image";
 
-import serviceImage31 from "@/assets/img/service/31.jpg";
+import serviceImage31 from "@/assets/img/service/fitness-equipment-repair_orig.jpg";
 import serviceImage32 from "@/assets/img/service/32.jpg";
 import ServiceSidebar from "@/components/shared/sidebars/ServiceSidebar";
 

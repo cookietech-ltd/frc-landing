@@ -49,7 +49,9 @@ const ProductDetailsRight = ({ product }) => {
     const currentDate = Date.now();
     const calanderFormat = moment(currentDate).format("YYYY-MM-DD");
     setPurchaseDate(calanderFormat);
-    const inputParent = inputRef.current;
+    
+    // Hidden for now - Cart functionality
+    /* const inputParent = inputRef.current;
     const input = inputParent.querySelector("input");
 
     setTimeout(() => {
@@ -61,12 +63,12 @@ const ProductDetailsRight = ({ product }) => {
       decreament.addEventListener("click", () => {
         setQuantity(parseInt(input.value));
       });
-    }, 500);
+    }, 500); */
   }, []);
   return (
     <div className="modal-product-info shop-details-info pl-0" id="details">
-      {/* ratings */}
-      <div className="product-ratting">
+      {/* Hidden for now - Rating */}
+      {/* <div className="product-ratting">
         <ul>
           <li>
             <Link href="#">
@@ -97,7 +99,7 @@ const ProductDetailsRight = ({ product }) => {
             <Link href="#"> ( {modifyNumber(reviewsLength)} Reviews )</Link>
           </li>
         </ul>
-      </div>
+      </div> */}
       {/* title */}
       <h3>{title}</h3>
       {/* price */}
@@ -180,8 +182,8 @@ const ProductDetailsRight = ({ product }) => {
       ) : (
         ""
       )}
-      {/* add to cart */}
-      <div className="ltn__product-details-menu-2">
+      {/* Hidden for now - Add to Cart */}
+      {/* <div className="ltn__product-details-menu-2">
         <ul>
           <li>
             <div className="cart-plus-minus" ref={inputRef}>
@@ -214,7 +216,7 @@ const ProductDetailsRight = ({ product }) => {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
       {/* add to wishlist and compare */}
       <div className="ltn__product-details-menu-3">
         <ul>

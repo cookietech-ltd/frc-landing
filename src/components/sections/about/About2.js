@@ -73,7 +73,7 @@ const About2 = () => {
                     <div className="about-us-img-info">
                       <div className="about-us-img-info-inner">
                         <h1>
-                          <span className="counter">42</span>
+                          <span className="counter">10</span>
                           <span>+</span>
                         </h1>
                         <h6>
@@ -94,7 +94,8 @@ const About2 = () => {
                   {"//"} About Us
                 </h6>
                 <h1 className="section-title">
-                  Get Amazing Service From Us<span>.</span>
+                Experienced Fitness Equipment Installers ​
+                <span>.</span>
                 </h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -103,10 +104,7 @@ const About2 = () => {
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim ven iam, quis nostrud exercitation ullamco laboris
-                nisi{" "}
+              Our staff is committed to helping you with all your fitness equipment moving, installation and servicing needs. We hire and train our team members diligently with the know-how and expertise needed to ensure your needs are met. Our trained and qualified installers are excited to work with you to get you on your way to enjoying your equipment!{" "}
               </p>
               <hr />
               <div className="about-call-us">
@@ -125,9 +123,9 @@ const About2 = () => {
                     .
                   </p>
                   <h2>
-                    <Link href="tel:+123456789">507-452-1254</Link>{" "}
+                    <Link href="tel:+14125205857">(412)-520-5857</Link>{" "}
                     <small> or </small>{" "}
-                    <Link href="tel:+123456789">508-452-1253</Link>
+                    <Link href="mailto:info@myfitnessroomconcierge.com">olivia.meaden@myfitnessroomconcierge.com</Link>
                   </h2>
                 </div>
               </div>

@@ -4,6 +4,7 @@ import Blogs2 from "@/components/sections/blogs/Blogs2";
 import HeroPrimary from "@/components/sections/hero-banners/HeroPrimary";
 import History from "@/components/sections/history/History";
 import Services1 from "@/components/sections/services/Services1";
+import PreviousServicesSlider from "@/components/sections/services/PreviousServicesSlider";
 import Videos2 from "@/components/sections/videos/Videos2";
 import filterItems from "@/libs/filterItems";
 import getAllServices from "@/libs/getAllServices";
@@ -43,7 +44,7 @@ const ServicesMain = ({ title }) => {
         <>
           <History />
           <Videos2 />
-          <Blogs2 />
+          <PreviousServicesSlider />
         </>
       ) : (
         ""

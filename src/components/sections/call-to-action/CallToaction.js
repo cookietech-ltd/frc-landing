@@ -8,7 +8,7 @@ const CallToaction = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div className="get-a-free-service-inner bg-white text-center pt-115 pb-100">
+            <div className="get-a-free-service-inner bg-white text-center pt-115 pb-150">
               <div className="call-to-img">
                 <Image src={bgImage10} alt="#" />
               </div>
@@ -18,7 +18,7 @@ const CallToaction = () => {
                     {"//"} call to action {"//"}
                   </h6>
                   <h1 className="section-title">
-                    Get A Free Car Service<span>.</span>
+                    Get A Quote Service<span>.</span>
                   </h1>
                 </div>
                 <div className="btn-wrapper">
@@ -26,7 +26,7 @@ const CallToaction = () => {
                     href="/appointment"
                     className="btn theme-btn-1 btn-effect-1 text-uppercase"
                   >
-                    get an appointment
+                    Request a Quote
                   </Link>
                 </div>
               </div>
