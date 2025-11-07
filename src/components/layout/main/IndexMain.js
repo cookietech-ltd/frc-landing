@@ -19,6 +19,7 @@ const IndexMain = () => {
       <Features />
       <About1 />
       <About2 />
+      <CounterUp />
       <ServicesSlider isPrimary={true} />
       <CallToaction />
       <Testimonials2 type={8} />
