@@ -72,7 +72,7 @@ const PrivacyContent = () => {
                 We may update this Privacy Policy periodically. The most recent version will always be posted within the app and on our website.
               </p>
 
-              <h2 className="mt-30">11. Children's Privacy</h2>
+              <h2 className="mt-30">11. Children&apos;s Privacy</h2>
               <p>
                 Our services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children.
               </p>
@@ -96,7 +96,7 @@ const PrivacyContent = () => {
                             </h6>
                             <h1 className="section-title">
                               Have Privacy Concerns?<br />
-                              We're Here to Help
+                              We&apos;re Here to Help
                             </h1>
                           </div>
                         </div>

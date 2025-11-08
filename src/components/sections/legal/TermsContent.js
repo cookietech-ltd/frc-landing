@@ -24,7 +24,7 @@ const TermsContent = () => {
 
               <h2 className="mt-30">1. Acceptance of Terms</h2>
               <p>
-                By creating an account or using the Fitness Room Concierge ("FRC") mobile or web application, you agree to these Terms of Use. If you do not agree, do not use the app. FRC may modify these Terms at any time, and continued use after updates constitutes acceptance.
+                By creating an account or using the Fitness Room Concierge (&quot;FRC&quot;) mobile or web application, you agree to these Terms of Use. If you do not agree, do not use the app. FRC may modify these Terms at any time, and continued use after updates constitutes acceptance.
               </p>
 
               <h2 className="mt-30">2. Authorized Use</h2>
@@ -39,7 +39,7 @@ const TermsContent = () => {
 
               <h2 className="mt-30">4. Service Disclaimer</h2>
               <p>
-                FRC provides a digital platform to facilitate maintenance coordination. FRC is not responsible for gym operations, member safety, or service outcomes. The platform is provided "as is" without warranties of any kind.
+                FRC provides a digital platform to facilitate maintenance coordination. FRC is not responsible for gym operations, member safety, or service outcomes. The platform is provided &quot;as is&quot; without warranties of any kind.
               </p>
 
               <h2 className="mt-30">5. Limitation of Liability</h2>
