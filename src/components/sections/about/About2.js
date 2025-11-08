@@ -1,10 +1,10 @@
 import Image from "next/image";
-import effectImage1 from "@/assets/img/effect/1.png";
-import effectImage2 from "@/assets/img/effect/2.png";
-import effectImage3 from "@/assets/img/effect/3.png";
-import effectImage4 from "@/assets/img/effect/4.png";
-import effectImage5 from "@/assets/img/effect/5.png";
-import effectImage6 from "@/assets/img/effect/6.png";
+import effectImage1 from "@/assets/img/effect/frc1.jpg";
+import effectImage2 from "@/assets/img/effect/frc2.jpg";
+import effectImage3 from "@/assets/img/effect/frc3.jpg";
+import effectImage4 from "@/assets/img/effect/frc4.jpg";
+import effectImage5 from "@/assets/img/effect/frc5.jpg";
+import effectImage6 from "@/assets/img/effect/frc6.jpg";
 import iconImage7 from "@/assets/img/icons/7.png";
 import Link from "next/link";
 
@@ -98,8 +98,7 @@ const About2 = () => {
                 <span>.</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                  Customer satisfaction is our main objective. We are located in Pittsburgh, PA and service anywhere needed.
                 </p>
               </div>
 

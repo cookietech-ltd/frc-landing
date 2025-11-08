@@ -1,4 +1,4 @@
-import productImage1 from "@/assets/img/product/1.png";
+import productImage1 from "@/assets/img/product/20.png";
 
 const getAllFeatues = () => {
   const features = [
