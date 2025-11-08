@@ -115,7 +115,8 @@ const ProductCardPrimary2 = ({ product, isShowDisc, isCar }) => {
         <div className="product-brief">
           <p>{sliceText(desc, 140)}</p>
         </div>
-        <div className="product-hover-action">
+        {/* Hidden hover actions */}
+        {/* <div className="product-hover-action">
           <ul>
             <li>
               <Link
@@ -127,25 +128,6 @@ const ProductCardPrimary2 = ({ product, isShowDisc, isCar }) => {
                 <i className="far fa-eye"></i>
               </Link>
             </li>
-            {/* Hidden for now - Add to Cart */}
-            {/* <li>
-              <Link
-                onClick={(e) => {
-                  e.preventDefault();
-                  addProductToCart({
-                    ...product,
-                    quantity: 1,
-                    color: color,
-                  });
-                }}
-                href="#"
-                title="Add to Cart"
-                data-bs-toggle="modal"
-                data-bs-target="#add_to_cart_modal"
-              >
-                <i className="fas fa-shopping-cart"></i>
-              </Link>
-            </li> */}
             <li>
               <Link
                 onClick={(e) => {
@@ -161,7 +143,7 @@ const ProductCardPrimary2 = ({ product, isShowDisc, isCar }) => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

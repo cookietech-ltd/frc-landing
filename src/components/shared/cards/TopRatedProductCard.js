@@ -19,7 +19,8 @@ const TopRatedProductCard = ({ product, isShowDisc }) => {
         </Link>
       </div>
       <div className="top-rated-product-info">
-        <div className="product-ratting">
+        {/* Rating hidden - not needed for fitness equipment */}
+        {/* <div className="product-ratting">
           <ul>
             <li>
               <Link href="#">
@@ -47,7 +48,7 @@ const TopRatedProductCard = ({ product, isShowDisc }) => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
         <h6>
           <Link href={`/products/${id}`}>{sliceText(title, 25)}</Link>
         </h6>

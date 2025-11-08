@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import sliderHero1 from "@/assets/img/slider/hero1.jpg";
+import sliderHero1 from "@/assets/img/slider/banner-file-1.png";
 import sliderHero2 from "@/assets/img/slider/hero2.jpg";
 
 const Hero1 = () => {
@@ -18,9 +18,11 @@ const Hero1 = () => {
                       <h1 className="slide-title animated ">
                         Fitness Room Concierge
                       </h1>
-                      <h6 className="slide-sub-title animated">
-                        <span>{"//"}</span> EXPERT FITNESS EQUIPMENT SERVICES
-                      </h6>
+                      <div className="slide-brief animated">
+                        <p>
+                        Our staff is committed to helping you with all your fitness equipment moving, installation and servicing needs.
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <div className="slide-item-img">

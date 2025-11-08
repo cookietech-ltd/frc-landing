@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import logoImage1 from "@/assets/img/logo.png";
-import logoImage2 from "@/assets/img/logo-2.png";
-import logoImage3 from "@/assets/img/logo-3.png";
+import logoImage2 from "@/assets/img/logo-white.png";
+import logoImage3 from "@/assets/img/logo-white.png";
 import Link from "next/link";
 import { useHeaderContex } from "@/providers/HeaderContex";
 
@@ -25,7 +25,7 @@ const Logo = ({ sticky }) => {
               src={
                 navBg === "secondary" && sticky
                   ? logoImage3
-                  : headerStyle === 2
+                  : headerStyle === 1
                   ? logoImage2
                   : logoImage1
               }
@@ -47,7 +47,7 @@ const Logo = ({ sticky }) => {
             <div className="get-support-info">
               <h6>Get Support</h6>
               <h4>
-                <Link href="tel:+123456789">123-456-789-10</Link>
+                <Link href="tel:+412-5205857">(412)-520-5857</Link>
               </h4>
             </div>
           </div>

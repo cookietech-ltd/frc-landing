@@ -20,22 +20,23 @@ const ProductDetailsTab = ({ product }) => {
           >
             Description
           </Link>
-          <Link data-bs-toggle="tab" href="#liton_tab_details_1_2" className="">
+          {/* Reviews tab hidden - not needed for fitness equipment */}
+          {/* <Link data-bs-toggle="tab" href="#liton_tab_details_1_2" className="">
             Reviews
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="tab-content">
         <div className="tab-pane fade active show" id="liton_tab_details_1_1">
           <TabDescription />
         </div>
-        {/* reviews */}
-        <div className="tab-pane fade" id="liton_tab_details_1_2">
+        {/* reviews section hidden - not needed for fitness equipment */}
+        {/* <div className="tab-pane fade" id="liton_tab_details_1_2">
           <ProductDetailsReviews
             reviews={reviews}
             reviewsLength={reviewsLength}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

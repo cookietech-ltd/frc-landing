@@ -25,7 +25,8 @@ const ProductDetailsTab2 = ({ product }) => {
                   >
                     Description
                   </Link>{" "}
-                  <Link
+                  {/* Reviews and Comments tabs hidden - not needed for fitness equipment */}
+                  {/* <Link
                     data-bs-toggle="tab"
                     href="#liton_tab_details_1_2"
                     className=""
@@ -38,7 +39,7 @@ const ProductDetailsTab2 = ({ product }) => {
                     className=""
                   >
                     Comments
-                  </Link>{" "}
+                  </Link>{" "} */}
                   <Link
                     data-bs-toggle="tab"
                     href="#liton_tab_details_1_4"
@@ -62,7 +63,8 @@ const ProductDetailsTab2 = ({ product }) => {
                 >
                   <TabDescription />
                 </div>
-                <div className="tab-pane fade" id="liton_tab_details_1_2">
+                {/* Reviews and Comments sections hidden - not needed for fitness equipment */}
+                {/* <div className="tab-pane fade" id="liton_tab_details_1_2">
                   <ProductDetailsReviews
                     reviews={reviews}
                     reviewsLength={reviewsLength}
@@ -73,7 +75,7 @@ const ProductDetailsTab2 = ({ product }) => {
                     comments={comments}
                     commentsLength={commentsLength}
                   />
-                </div>
+                </div> */}
                 <div className="tab-pane fade" id="liton_tab_details_1_4">
                   <div className="ltn__shop-details-tab-content-inner">
                     <h4 className="title-2">Shipping policy for our store</h4>

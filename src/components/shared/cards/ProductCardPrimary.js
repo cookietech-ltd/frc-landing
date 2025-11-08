@@ -47,7 +47,8 @@ const ProductCardPrimary = ({ product, isShowDisc }) => {
         ) : (
           ""
         )}
-        <div className="product-hover-action">
+        {/* Hidden hover actions */}
+        {/* <div className="product-hover-action">
           <ul>
             <li>
               <Link
@@ -58,26 +59,7 @@ const ProductCardPrimary = ({ product, isShowDisc }) => {
               >
                 <i className="far fa-eye"></i>
               </Link>
-            </li>{" "}
-            {/* Hidden for now - Add to Cart */}
-            {/* <li>
-              <Link
-                onClick={(e) => {
-                  e.preventDefault();
-                  addProductToCart({
-                    ...product,
-                    quantity: 1,
-                    color: color,
-                  });
-                }}
-                href="#"
-                title="Add to Cart"
-                data-bs-toggle="modal"
-                data-bs-target="#add_to_cart_modal"
-              >
-                <i className="fas fa-shopping-cart"></i>
-              </Link>
-            </li>{" "} */}
+            </li>
             <li>
               <Link
                 onClick={(e) => {
@@ -93,7 +75,7 @@ const ProductCardPrimary = ({ product, isShowDisc }) => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <div className="product-info">
         {/* Hidden for now - Rating */}

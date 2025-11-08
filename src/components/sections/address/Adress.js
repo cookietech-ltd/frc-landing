@@ -15,8 +15,7 @@ const Adress = () => {
               </div>
               <h3>Email Address</h3>
               <p>
-                info@webmail.com <br />
-                jobs@webexample.com
+                olivia.meaden@myfitnessroomconcierge.com <br />
               </p>
             </div>
           </div>
@@ -27,7 +26,7 @@ const Adress = () => {
               </div>
               <h3>Phone Number</h3>
               <p>
-                +0123-456789 <br /> +987-6543210
+                (412)-520-5857 <br /> (412)-520-5857
               </p>
             </div>
           </div>
@@ -38,8 +37,7 @@ const Adress = () => {
               </div>
               <h3>Office Address</h3>
               <p>
-                18/A, New Born Town Hall <br />
-                New York, US
+              Burgettstown, PA, United States, Pennsylvania 15021 <br />
               </p>
             </div>
           </div>

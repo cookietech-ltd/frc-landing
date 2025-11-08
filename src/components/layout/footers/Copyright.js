@@ -35,13 +35,13 @@ const Copyright = () => {
             <div className="ltn__copyright-menu text-end">
               <ul>
                 <li>
-                  <a href="#">Terms & Conditions</a>
+                  <Link href="/terms">Terms of Use</Link>
                 </li>{" "}
                 <li>
-                  <a href="#">Claim</a>
+                  <Link href="/privacy">Privacy Policy</Link>
                 </li>{" "}
                 <li>
-                  <a href="#">Privacy & Policy</a>
+                  <Link href="/contact">Contact Us</Link>
                 </li>
               </ul>
             </div>

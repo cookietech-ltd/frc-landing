@@ -217,8 +217,8 @@ const ProductDetailsRight = ({ product }) => {
           </li>
         </ul>
       </div> */}
-      {/* add to wishlist and compare */}
-      <div className="ltn__product-details-menu-3">
+      {/* Add to Wishlist and Compare hidden - not needed for fitness equipment */}
+      {/* <div className="ltn__product-details-menu-3">
         <ul>
           <li>
             <Link
@@ -248,7 +248,7 @@ const ProductDetailsRight = ({ product }) => {
           </li>
         </ul>
       </div>
-      <hr />
+      <hr /> */}
       {/* socials */}
       <div className="ltn__social-media">
         <ul>

@@ -18,7 +18,7 @@ const CallToaction = () => {
                     {"//"} call to action {"//"}
                   </h6>
                   <h1 className="section-title">
-                    Get A Quote Service<span>.</span>
+                    Get A Free Visit<span>.</span>
                   </h1>
                 </div>
                 <div className="btn-wrapper">
@@ -26,7 +26,7 @@ const CallToaction = () => {
                     href="/appointment"
                     className="btn theme-btn-1 btn-effect-1 text-uppercase"
                   >
-                    Request a Quote
+                    Request a Visit
                   </Link>
                 </div>
               </div>
