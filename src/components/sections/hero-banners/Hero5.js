@@ -21,10 +21,10 @@ const Hero5 = () => {
                   <div className="slide-item-info">
                     <div className="slide-item-info-inner ltn__slide-animation">
                       <h6 className="slide-sub-title white-color animated">
-                        {"//"} TALENTED ENGINEER & MECHANICS
+                        {"//"} EXPERIENCED FITNESS EQUIPMENT INSTALLERS
                       </h6>
                       <h1 className="slide-title text-uppercase white-color animated ">
-                        Professional Car <br /> Service Provide
+                        Professional Fitness <br /> Equipment Service Provider
                       </h1>
                     </div>
                   </div>

@@ -14,6 +14,15 @@ import Testimonials2 from "@/components/sections/testimonils/Testimonials2";
 import Hero5 from "@/components/sections/hero-banners/Hero5";
 import Features3 from "@/components/sections/features/Features3";
 import Services2 from "@/components/sections/services/Services2";
+import CallToAction3 from "@/components/sections/call-to-action/CallToAction3";
+import Services3 from "@/components/sections/services/Services3";
+import React from "react";
+import Features2 from "@/components/sections/features/Features2";
+import Portfolio2 from "@/components/sections/portfolio/Portfolio2";
+import NewsletterModal from "@/components/shared/modals/NewsletterModal";
+import Video from "@/components/sections/videos/Video";
+import Brands2 from "@/components/sections/brands/Brands2";
+import Offer2 from "@/components/sections/offers/Offer2";
 
 const IndexMain = () => {
   return (
@@ -22,11 +31,15 @@ const IndexMain = () => {
       <Features />
       <About2 />
         <Features3 />
-        <Services2 />
-      <CounterUp />
-      <ServicesSlider isPrimary={true} />
-      <CallToaction />
-      <Testimonials2 type={8} />
+
+        <Portfolio2 />
+
+        <Services3 />
+        <CounterUp />
+        <Offer2 />
+        <Video />
+        <Brands2 />
+        <Blogs2 />
     </main>
 
   );

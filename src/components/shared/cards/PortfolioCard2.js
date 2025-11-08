@@ -13,16 +13,8 @@ const PortfolioCard2 = ({ portfolioSingle }) => {
         <div className="ltn__img-slide-info-brief">
           <h6>{dep}</h6>
           <h1>
-            <Link href={`/portfolio/${id}`}>{title}</Link>
+              {title}
           </h1>
-        </div>
-        <div className="btn-wrapper">
-          <Link
-            href={`/portfolio/${id}`}
-            className="btn theme-btn-1 btn-effect-1 text-uppercase"
-          >
-            Details
-          </Link>
         </div>
       </div>
     </div>

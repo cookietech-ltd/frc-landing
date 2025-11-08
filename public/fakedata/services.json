@@ -321,14 +321,14 @@
   },
   {
     "id": 21,
-    "title": "Branding & Custom Design",
+    "title": "Work Order Management",
     "services": [
-      "Custom equipment colors",
-      "Logo integration",
-      "Brand consistency",
-      "Facility aesthetics"
+      "Status tracking system",
+      "Priority assignment",
+      "Photo uploads",
+      "Notes and updates"
     ],
-    "desc": "Personalize your gym equipment and space to reflect your unique brand identity.",
+    "desc": "Streamline service requests with comprehensive work order tracking and management system.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🎨",
@@ -337,14 +337,14 @@
   },
   {
     "id": 22,
-    "title": "Display & Monitor Solutions",
+    "title": "Equipment Database System",
     "services": [
-      "Screen installation",
-      "Digital signage",
-      "Entertainment systems",
-      "Interactive displays"
+      "Asset tracking",
+      "QR code generation",
+      "Warranty status",
+      "Service history"
     ],
-    "desc": "Modern display solutions to enhance member engagement and facility communication.",
+    "desc": "Centralized equipment database with QR codes for quick service request submission.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "📺",
@@ -353,14 +353,14 @@
   },
   {
     "id": 23,
-    "title": "Climate Control & Ventilation",
+    "title": "Technician Assignment Tool",
     "services": [
-      "HVAC optimization",
-      "Air quality management",
-      "Temperature control",
-      "Ventilation systems"
+      "Work order assignment",
+      "Schedule management",
+      "Certification tracking",
+      "Performance metrics"
     ],
-    "desc": "Ensure optimal comfort with professional climate control and ventilation services.",
+    "desc": "Efficient technician assignment system to optimize service delivery and response times.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🌡️",
@@ -369,14 +369,14 @@
   },
   {
     "id": 24,
-    "title": "Flooring & Surface Solutions",
+    "title": "Reporting & Analytics Dash",
     "services": [
-      "Rubber flooring installation",
-      "Surface maintenance",
-      "Anti-slip treatments",
-      "Protective coatings"
+      "Uptime monitoring",
+      "SLA metrics tracking",
+      "Service activity reports",
+      "Equipment health data"
     ],
-    "desc": "Quality flooring solutions designed for durability and safety in high-traffic gym environments.",
+    "desc": "Comprehensive reporting dashboard for uptime monitoring, SLA metrics, and service analytics.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🏋️",
@@ -385,14 +385,14 @@
   },
   {
     "id": 25,
-    "title": "Equipment Diagnostics & Testing",
+    "title": "Invoice Management",
     "services": [
-      "Performance diagnostics",
-      "Load testing",
-      "Electrical testing",
-      "Mechanical inspections"
+      "Billable work tracking",
+      "Net 10 terms support",
+      "Monthly consolidation",
+      "Export for accounting"
     ],
-    "desc": "Comprehensive diagnostic services to identify and resolve equipment issues before they become problems.",
+    "desc": "Complete invoice management with billable tracking, Net 10 terms, and monthly reporting per gym.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🔬",
@@ -401,14 +401,14 @@
   },
   {
     "id": 26,
-    "title": "Access Control Systems",
+    "title": "QR Code Generation Sys",
     "services": [
-      "Keycard systems",
-      "Biometric access",
-      "Member check-in",
-      "Security integration"
+      "Asset QR codes",
+      "Quick service intake",
+      "Pre-filled forms",
+      "Equipment linking"
     ],
-    "desc": "Modern access control solutions to secure your facility and streamline member access.",
+    "desc": "Generate QR codes for equipment to enable quick service request submission via mobile scan.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🔐",

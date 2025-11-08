@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import otherImage1 from "@/assets/img/others/1.jpg";
-import otherImage2 from "@/assets/img/others/2.jpg";
+import otherImage1 from "@/assets/img/others/other1.jpg";
+import otherImage2 from "@/assets/img/others/other2.jpg";
 
 const Features3 = () => {
   return (
@@ -15,27 +15,24 @@ const Features3 = () => {
                   {"//"} Why Choose Us
                 </h6>
                 <h1 className="section-title">
-                  Safety Is Our First Priority<span>.</span>
+                  Veteran Owned and Operated<span>.</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                  Customer satisfaction is our main objective. We strategically place equipment to maximize space and capability.
                 </p>
               </div>
               <div className="row">
                 <div className="col-lg-12 col-md-6">
                   <div className="why-choose-us-feature-item">
                     <div className="why-choose-us-feature-icon">
-                      <i className="icon-car-parts-1"></i>
+                      <i className="icon-hand"></i>
                     </div>
                     <div className="why-choose-us-feature-brief">
                       <h3>
-                        <Link href="/services">Anytime Get Your Service</Link>
+                        <Link href="/services">Expert Installation Team</Link>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor ut labore et dolore magna aliqua.
-                        Ut enim ad minim
+                        Our team of experts will take the time to safely deliver, install and service your equipment to exceed your standards and ensure maximum capability.
                       </p>
                     </div>
                   </div>
@@ -43,16 +40,14 @@ const Features3 = () => {
                 <div className="col-lg-12 col-md-6">
                   <div className="why-choose-us-feature-item">
                     <div className="why-choose-us-feature-icon">
-                      <i className="icon-automobile"></i>
+                      <i className="icon-maintenance"></i>
                     </div>
                     <div className="why-choose-us-feature-brief">
                       <h3>
-                        <Link href="/services">Hardcore Repair Service</Link>
+                        <Link href="/services">Equipment Maintenance</Link>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor ut labore et dolore magna aliqua.
-                        Ut enim ad minim
+                        We will ensure your equipment works at its maximum ability to ensure customer satisfaction. Our trained installers are certified in the industry.
                       </p>
                     </div>
                   </div>
