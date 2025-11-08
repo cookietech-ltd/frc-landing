@@ -11,14 +11,18 @@ import ServicesSlider from "@/components/sections/services/ServicesSlider";
 import Team1 from "@/components/sections/team/Team1";
 import Testimonials1 from "@/components/sections/testimonils/Testimonials1";
 import Testimonials2 from "@/components/sections/testimonils/Testimonials2";
+import Hero5 from "@/components/sections/hero-banners/Hero5";
+import Features3 from "@/components/sections/features/Features3";
+import Services2 from "@/components/sections/services/Services2";
 
 const IndexMain = () => {
   return (
     <main>
-      <Hero1 />
+        <Hero5 />
       <Features />
-      <About1 />
       <About2 />
+        <Features3 />
+        <Services2 />
       <CounterUp />
       <ServicesSlider isPrimary={true} />
       <CallToaction />

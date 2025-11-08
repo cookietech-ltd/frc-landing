@@ -3,7 +3,7 @@ import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 
 export default function Home() {
   return (
-    <PageWrapper  >
+    <PageWrapper    headerStyle={2} >
       <IndexMain />
     </PageWrapper>
   );

@@ -6,7 +6,7 @@ const Hero5 = () => {
       <div className="ltn__slide-one-active----- slick-slide-arrow-1----- slick-slide-dots-1----- arrow-white----- ltn__slide-animation-active">
         {/* <!-- HTML5 VIDEO --> */}
         <video autoPlay muted loop id="myVideo" width={"1000"} height={"1000"}>
-          <source src="media/1.mp4" type="video/mp4" />
+          <source src="media/frc.mp4" type="video/mp4" />
         </video>
 
         {/* <!-- ltn__slide-item --> */}
