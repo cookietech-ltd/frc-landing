@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import bgImage15 from "@/assets/img/bg/15.jpg";
+import bgImage15 from "@/assets/img/bg/frc_bg.jpg";
 
 const Video = () => {
   return (

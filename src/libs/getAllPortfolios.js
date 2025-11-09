@@ -8,13 +8,13 @@ import portfolioImage7 from "@/assets/img/gallery/7.jpg";
 import portfolioImage8 from "@/assets/img/gallery/8.jpg";
 import portfolioImage9 from "@/assets/img/gallery/9.jpg";
 import portfolioImage10 from "@/assets/img/gallery/10.jpg";
-import portfolioImage11 from "@/assets/img/img-slide/11.jpg";
-import portfolioImage12 from "@/assets/img/img-slide/12.jpg";
-import portfolioImage13 from "@/assets/img/img-slide/13.jpg";
-import portfolioImage14 from "@/assets/img/img-slide/21.jpg";
-import portfolioImage15 from "@/assets/img/img-slide/22.jpg";
-import portfolioImage16 from "@/assets/img/img-slide/23.jpg";
-import portfolioImage17 from "@/assets/img/img-slide/24.jpg";
+import portfolioImage11 from "@/assets/img/img-slide/port2.jpg";
+import portfolioImage12 from "@/assets/img/img-slide/port3.jpg";
+import portfolioImage13 from "@/assets/img/img-slide/port4.jpg";
+import portfolioImage14 from "@/assets/img/img-slide/port5.jpg";
+import portfolioImage15 from "@/assets/img/img-slide/port6.jpg";
+import portfolioImage16 from "@/assets/img/img-slide/port2.jpg";
+import portfolioImage17 from "@/assets/img/img-slide/port3.jpg";
 import portfolioImage18 from "@/assets/img/img-slide/1.jpg";
 import portfolioImage19 from "@/assets/img/img-slide/2.jpg";
 import portfolioImage20 from "@/assets/img/img-slide/3.jpg";
@@ -210,7 +210,7 @@ const getAllPortfolios = () => {
       path: "",
       desc: "Web Design & Development, Branding",
       icon: <i className="fas fa-search"></i>,
-      img: portfolioImage13,
+      img: portfolioImage12,
       imgLarge: portfolioImageLarge2,
       dep: "trouble shooting",
       duration: "1500",
@@ -221,7 +221,7 @@ const getAllPortfolios = () => {
       path: "",
       desc: "trouble shooting",
       icon: <i className="fas fa-not-equal"></i>,
-      img: portfolioImage15,
+      img: portfolioImage13,
       imgLarge: portfolioImageLarge3,
       dep: "Sports Car",
       duration: "2900",

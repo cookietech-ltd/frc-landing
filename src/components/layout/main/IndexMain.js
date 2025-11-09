@@ -23,6 +23,7 @@ import NewsletterModal from "@/components/shared/modals/NewsletterModal";
 import Video from "@/components/sections/videos/Video";
 import Brands2 from "@/components/sections/brands/Brands2";
 import Offer2 from "@/components/sections/offers/Offer2";
+import About from "@/app/about/page";
 
 const IndexMain = () => {
   return (
@@ -35,10 +36,9 @@ const IndexMain = () => {
         <Portfolio2 />
 
         <Services3 />
-        <CounterUp />
-        <Offer2 />
+        <About1 />
         <Video />
-        <Brands2 />
+        <CounterUp />
         <Blogs2 />
     </main>
 

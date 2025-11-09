@@ -28,7 +28,7 @@ const CounterUp = () => {
   ];
   return (
     <div
-      className="ltn__counterup-area bg-image bg-overlay-theme-black-80 pt-115 pb-70"
+      className="ltn__counterup-area bg-image bg-overlay-theme-black-80 pt-290 pb-70"
       data-bs-bg={bgImage19.src}
     >
       <div className="container">
