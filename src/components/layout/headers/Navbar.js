@@ -18,7 +18,7 @@ const Navbar = () => {
     },
     {
       name: "Store",
-      path: "/shop-grid",
+      path: "/shop",
       dropdown: null,
     },
     {

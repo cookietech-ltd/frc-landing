@@ -7,11 +7,9 @@ const FooterAbout = () => {
       <div className="footer-widget footer-about-widget clearfix">
         <h4 className="footer-title">About Us.</h4>
         <p>
-          Corporate clients and leisure travelers has been relying on{" "}
-          <Link href="/contact">Groundlink</Link> for dependable, safe, and
-          professional chauffeured car service in major cities across{" "}
-          <Link href="/locations">World</Link>. Indeed, it has been more than
-          one decade and five years that Groundlink
+          Fitness Room Concierge provides end-to-end equipment care for gyms and fitness facilities. We simplify every aspect of equipment ownership through{" "}
+          <Link href="/services">proactive maintenance</Link>, warranty management, fast repair, and{" "}
+          <Link href="/services">professional installation</Link>. Our platform connects members, staff, and technicians in one seamless ecosystem.
         </p>
         <div className="ltn__social-media-4">
           <ul>

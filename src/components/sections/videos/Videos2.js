@@ -1,4 +1,4 @@
-import bgImage16 from "@/assets/img/service/fitness-equipment-repair_orig.jpg";
+import bgImage16 from "@/assets/img/bg/frc_bg.jpg";
 import Link from "next/link";
 
 const Videos2 = () => {

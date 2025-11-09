@@ -34,15 +34,15 @@ const ProductCard = ({ product }) => {
             height={1000}
           />
         </Link>
-        {status ? (
-          <div className="product-badge">
-            <ul>
-              <li className="soldout-badge">{status}</li>
-            </ul>
-          </div>
-        ) : (
-          ""
-        )}
+        {/*{status ? (*/}
+        {/*  <div className="product-badge">*/}
+        {/*    <ul>*/}
+        {/*      <li className="soldout-badge">{status}</li>*/}
+        {/*    </ul>*/}
+        {/*  </div>*/}
+        {/*) : (*/}
+        {/*  ""*/}
+        {/*)}*/}
         {/* Hidden hover actions */}
         {/* <div className="product-hover-action">
           <ul>
@@ -73,12 +73,14 @@ const ProductCard = ({ product }) => {
           </ul>
         </div> */}
       </div>
+        <br/>
       <div className="product-info">
         <h2 className="product-title">
           <Link href={`/products/${id}`}>{title}</Link>
         </h2>
         <div className="product-price">
-          <span>${netPriceModified}</span> <del>${priceModified}</del>
+          <span>${netPriceModified}</span>
+            {/*<del>${priceModified}</del>*/}
         </div>
         <div className="product-info-brief">
           <ul>

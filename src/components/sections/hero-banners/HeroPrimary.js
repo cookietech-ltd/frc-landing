@@ -24,10 +24,10 @@ const HeroPrimary = ({ text, title, item, type, mb, isCapitalize }) => {
             <div className="ltn__breadcrumb-inner ltn__breadcrumb-inner-2 justify-content-between">
               <div className="section-title-area ltn__section-title-2">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  {"//"} Welcome to our company
+                  {"//"} Explore our selection of used fitness equipment.
                 </h6>
                 <h1
-                  className={`section-title white-color ${
+                  className={`section-subtitle white-color ${
                     isCapitalize ? "text-capitalize" : ""
                   }`}
                 >

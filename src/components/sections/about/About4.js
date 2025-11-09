@@ -1,5 +1,5 @@
 import Image from "next/image";
-import serviceImage11 from "@/assets/img/service/fitness-equipment-repair_orig.jpg";
+import serviceImage11 from "@/assets/img/service/frc_service_image.jpg";
 import Link from "next/link";
 
 const About4 = () => {
@@ -16,38 +16,20 @@ const About4 = () => {
             <div className="about-us-info-wrap">
               <div className="section-title-area ltn__section-title-2">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  {"//"} RELIABLE SERVICES
+                  {"//"} Introduction
                 </h6>
                 <h1 className="section-title">
-                  We are Qualified & Professional<span>.</span>
+                  End-to-End Equipment Care for Your Facility<span>.</span>
                 </h1>
                 <p>
-                Fitness Equipment Installation, Movement, Delivery and Service
+                Fitness Room Concierge provides end-to-end equipment care for gyms and fitness facilities. We simplify every aspect of equipment ownership through proactive maintenance, warranty management, fast repair, and professional installation.
                 </p>
               </div>
               <div className="about-us-info-wrap-inner about-us-info-devide">
                 <p>
-                We understand the hassle of doing the job on your own and the risks involved in moving expensive fitness equipment. Let our highly skilled fitness equipment technicians do the job for you! 
-​Our highly trained professional installers can do any installation, move or deliver. No job too big or too small!
-
-We are now offering servicing calls for your commercial and home fitness equipment! Cleaning, preventative maintenance, repairs or replacements. 
+                Our Planned Maintenance program is the foundation of the Concierge experience. Each month our technicians inspect, clean, and calibrate your equipment to keep it in peak condition. Reports and recommendations are uploaded to your dashboard for complete visibility. We handle the warranty process from start to finish, including manufacturer communication, parts orders, and claim tracking. Every step is documented in the platform so you can monitor progress in real time.
                 </p>
-                <div className="list-item-with-icon">
-                  <ul>
-                    <li>
-                      <Link href="/contact">24/7 Online Support</Link>
-                    </li>
-                    <li>
-                      <Link href="/team">Expert Team</Link>
-                    </li>
-                    <li>
-                      <Link href="/services/1">Pure Equipment</Link>
-                    </li>
-                    <li>
-                      <Link href="/shop">Unlimited Product</Link>
-                    </li>
-                  </ul>
-                </div>
+
               </div>
             </div>
           </div>

@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "title": "Professional Equipment Service & Maintenance",
+    "title": "Concierge Planned Maintenance",
     "services": [
-      "Equipment diagnostics",
-      "Preventive maintenance",
-      "Repair & replacement",
-      "24/7 emergency support"
+      "Monthly equipment inspections",
+      "Cleaning and calibration",
+      "Dashboard reports",
+      "Complete visibility and tracking"
     ],
-    "desc": "Keep your gym equipment in peak condition with our comprehensive service and maintenance programs.",
+    "desc": "Our Planned Maintenance program is the foundation of the Concierge experience. Each month our technicians inspect, clean, and calibrate your equipment to keep it in peak condition.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🔧",
@@ -17,14 +17,14 @@
   },
   {
     "id": 2,
-    "title": "Custom Quote & Consultation Services",
+    "title": "Non Warranty Equipment Repair Work",
     "services": [
-      "Equipment pricing quotes",
-      "Gym layout planning",
-      "Budget consultation",
-      "Package recommendations"
+      "Fast and reliable repairs",
+      "Service level agreements",
+      "Operational needs matching",
+      "Certified technician support"
     ],
-    "desc": "Get detailed quotes and expert consultation for your gym equipment and facility needs.",
+    "desc": "For equipment outside the warranty period, our technicians provide fast, reliable repairs backed by service level agreements that match your operational needs.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "💰",
@@ -33,14 +33,14 @@
   },
   {
     "id": 3,
-    "title": "OEM Warranty & Extended Protection",
+    "title": "Warranty Facilitation From Manufacturer",
     "services": [
-      "Warranty registration",
-      "Claims processing",
-      "Extended warranty plans",
-      "Parts replacement coverage"
+      "Manufacturer communication",
+      "Parts orders and tracking",
+      "Claim documentation",
+      "Real-time progress monitoring"
     ],
-    "desc": "Comprehensive warranty support and protection plans for all your gym equipment investments.",
+    "desc": "We handle the warranty process from start to finish, including manufacturer communication, parts orders, and claim tracking. Every step is documented in the platform.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🛡️",
@@ -65,14 +65,14 @@
   },
   {
     "id": 5,
-    "title": "Fitness Equipment Installation",
+    "title": "Equipment Delivery and Installation",
     "services": [
-      "Professional installation",
-      "Equipment calibration",
-      "Safety inspections",
-      "Layout optimization"
+      "Professional delivery and setup",
+      "Testing and calibration",
+      "Customer verification process",
+      "Satisfaction guarantee"
     ],
-    "desc": "Expert installation services ensuring your equipment is set up correctly and safely.",
+    "desc": "Professional delivery and setup for any size facility. Each installation includes testing, calibration, and customer verification. Our job is not complete until you are completely satisfied.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "⚙️",
@@ -289,14 +289,14 @@
   },
   {
     "id": 19,
-    "title": "Equipment Relocation Services",
+    "title": "Equipment Relocation and Extraction",
     "services": [
-      "Safe equipment moving",
-      "Facility relocation",
-      "Setup at new location",
-      "Minimal downtime"
+      "Safe and efficient moves",
+      "Certified extraction services",
+      "Outdated equipment removal",
+      "Complete documentation and logging"
     ],
-    "desc": "Professional relocation services for moving your gym equipment safely and efficiently.",
+    "desc": "Safe, efficient moves and certified extraction for outdated equipment. Every job is logged and documented for transparency and environmental responsibility.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🚚",

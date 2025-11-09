@@ -16,7 +16,7 @@ const ProductDetailsMain = ({ title, text, type, isNotSidebar, isCar }) => {
       <CommonContext value={{ type, isNotSidebar, isCar }}>
         <ProductDetailsPrimary />
       </CommonContext>
-      <Products5 isRelated={true} title="Related Products" tag="// cars" />
+      <Products5 isRelated={true} title="Related Products" tag="// Equipments" />
     </main>
   );
 };

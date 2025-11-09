@@ -24,7 +24,7 @@ const Services1 = ({ isPrimary }) => {
                   {"//"} Our Services
                 </h6>
                 <h1 className="section-title">
-                  Comprehensive Gym Management Solutions<span>.</span>
+                  Our Core Services<span>.</span>
                 </h1>
               </div>
             </div>

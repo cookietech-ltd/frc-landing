@@ -11,9 +11,7 @@ import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const ShopMain = ({ title, isSidebar, text, isCar, currentTapId }) => {
-  const allProducts = getAllProducts()?.filter(({ type }) =>
-    isCar ? type === "auto" : type !== "auto"
-  );
+  const allProducts = getAllProducts();
   const category = useSearchParams()?.get("category");
   const brand = useSearchParams()?.get("brand");
   const tag = useSearchParams()?.get("tag");

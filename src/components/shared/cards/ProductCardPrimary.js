@@ -32,21 +32,21 @@ const ProductCardPrimary = ({ product, isShowDisc }) => {
             // placeholder="blur"
           />
         </Link>
-        {status || isShowDisc ? (
-          <div className="product-badge">
-            <ul>
-              {isShowDisc ? (
-                <li className="sale-badge">-{disc}%</li>
-              ) : status === "sale" ? (
-                <li className="new-badge">{status}</li>
-              ) : (
-                <li className="sale-badge">{status}</li>
-              )}
-            </ul>
-          </div>
-        ) : (
-          ""
-        )}
+        {/*{status || isShowDisc ? (*/}
+        {/*  <div className="product-badge">*/}
+        {/*    <ul>*/}
+        {/*      {isShowDisc ? (*/}
+        {/*        <li className="sale-badge">-{disc}%</li>*/}
+        {/*      ) : status === "sale" ? (*/}
+        {/*        <li className="new-badge">{status}</li>*/}
+        {/*      ) : (*/}
+        {/*        <li className="sale-badge">{status}</li>*/}
+        {/*      )}*/}
+        {/*    </ul>*/}
+        {/*  </div>*/}
+        {/*) : (*/}
+        {/*  ""*/}
+        {/*)}*/}
         {/* Hidden hover actions */}
         {/* <div className="product-hover-action">
           <ul>
@@ -112,7 +112,8 @@ const ProductCardPrimary = ({ product, isShowDisc }) => {
           <Link href={`/products/${id}`}>{title}</Link>
         </h2>
         <div className="product-price">
-          <span>${netPriceModified}</span> <del>${priceModified}</del>
+          <span>${netPriceModified}</span>
+            {/*<del>${priceModified}</del>*/}
         </div>
       </div>
     </div>

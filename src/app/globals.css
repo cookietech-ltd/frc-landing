@@ -8391,6 +8391,15 @@ a,
 .ltn__product-item-3 .product-title {
     font-size: 16px;
     margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ltn__product-item-3 .product-title a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .ltn__product-item-3 .product-price {
     font-size: 20px;
