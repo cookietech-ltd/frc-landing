@@ -28,8 +28,8 @@ const IndexMain = () => {
   return (
     <main>
         <Hero5 />
-      <Features />
       <About2 />
+        <Features2 />
         <Features3 />
 
         <Portfolio2 />

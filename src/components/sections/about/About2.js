@@ -91,43 +91,28 @@ const About2 = () => {
             <div className="about-us-info-wrap">
               <div className="section-title-area ltn__section-title-2">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  {"//"} About Us
+                  {"//"} The Concierge Difference
                 </h6>
-                <h1 className="section-title">
-                Experienced Fitness Equipment Installers ​
+                <h1 className="section-subtitle">
+                    At Fitness Room Concierge, service is more than repair work. It is an experience ​
                 <span>.</span>
                 </h1>
                 <p>
-                  Customer satisfaction is our main objective. We are located in Pittsburgh, PA and service anywhere needed.
+                    We blend national-level professionalism with concierge-style care—simplifying your day, protecting your investment, and ensuring peace of mind.
                 </p>
               </div>
 
               <p>
-              Our staff is committed to helping you with all your fitness equipment moving, installation and servicing needs. We hire and train our team members diligently with the know-how and expertise needed to ensure your needs are met. Our trained and qualified installers are excited to work with you to get you on your way to enjoying your equipment!{" "}
+                  Our certified technicians are reliable, responsive, and committed to quality. Whether you need a new facility set up, warranty work managed, or ongoing maintenance programs in place, we handle it all with precision and care. Our job is not done until you are completely satisfied.{" "}
               </p>
-              <hr />
-              <div className="about-call-us">
-                <div className="call-us-icon">
-                  <Image src={iconImage7} alt="Icon Image" placeholder="blur" />
-                </div>
-                <div className="call-us-info">
-                  <p>
-                    Call us 24/7. We can answer for{" "}
+                <div className="btn-wrapper animated">
                     <Link
-                      href="/contact"
-                      className="ltn__secondary-color text-decoration"
+                        href="/services"
+                        className="theme-btn-1 btn btn-effect-1"
                     >
-                      <strong>all your questions</strong>
+                        View Our Services
                     </Link>
-                    .
-                  </p>
-                  <h2>
-                    <Link href="tel:+14125205857">(412)-520-5857</Link>{" "}
-                    <small> or </small>{" "}
-                    <Link href="mailto:info@myfitnessroomconcierge.com">olivia.meaden@myfitnessroomconcierge.com</Link>
-                  </h2>
                 </div>
-              </div>
             </div>
           </div>
         </div>

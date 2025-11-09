@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 const Features2 = ({ pt }) => {
-  const features = getAllFeatues()?.filter(({ id }) => id > 3 && id < 8);
+  const features = getAllFeatues()?.filter(({ id }) => id > 7 && id < 12);
   return (
     <div className={`ltn__feature-area pb-90 ${pt ? pt : ""}`}>
       <div className="container">

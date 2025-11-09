@@ -1,7 +1,7 @@
 import ServiceCard3 from "@/components/shared/cards/ServiceCard3";
 import getAllServices from "@/libs/getAllServices";
 import Image from "next/image";
-import otherImage2 from "@/assets/img/others/frc_app.png";
+import otherImage2 from "@/assets/img/others/other_frc.png";
 
 const Services3 = () => {
   const services1 = getAllServices()?.filter(({ id }) => id > 20 && id < 24);

@@ -321,14 +321,14 @@
   },
   {
     "id": 21,
-    "title": "Work Order Management",
+    "title": "Staff Review and Approve",
     "services": [
-      "Status tracking system",
-      "Priority assignment",
-      "Photo uploads",
-      "Notes and updates"
+      "Request review and approval",
+      "Staff-created service requests",
+      "Mobile and web app access",
+      "Priority assignment"
     ],
-    "desc": "Streamline service requests with comprehensive work order tracking and management system.",
+    "desc": "The request is routed to gym staff for review and approval. Staff can also create new requests directly through the mobile or web app.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🎨",
@@ -344,7 +344,7 @@
       "Warranty status",
       "Service history"
     ],
-    "desc": "Centralized equipment database with QR codes for quick service request submission.",
+    "desc": "Centralized equipment database with QR codes for quick service request submission and comprehensive asset management.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "📺",
@@ -353,14 +353,14 @@
   },
   {
     "id": 23,
-    "title": "Technician Assignment Tool",
+    "title": "We Handle the Rest",
     "services": [
-      "Work order assignment",
-      "Schedule management",
-      "Certification tracking",
-      "Performance metrics"
+      "Automatic technician dispatch",
+      "Real-time progress tracking",
+      "Live status updates",
+      "Service completion monitoring"
     ],
-    "desc": "Efficient technician assignment system to optimize service delivery and response times.",
+    "desc": "Once approved, the FRC platform dispatches the right technician, tracks progress, and provides live updates throughout the service process.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🌡️",
@@ -369,14 +369,14 @@
   },
   {
     "id": 24,
-    "title": "Reporting & Analytics Dash",
+    "title": "Track and Review",
     "services": [
-      "Uptime monitoring",
-      "SLA metrics tracking",
-      "Service activity reports",
-      "Equipment health data"
+      "Complete service history",
+      "Cost tracking and analysis",
+      "Completion details",
+      "Equipment performance visibility"
     ],
-    "desc": "Comprehensive reporting dashboard for uptime monitoring, SLA metrics, and service analytics.",
+    "desc": "All service history, costs, and completion details are available in your dashboard, giving you full visibility into every piece of equipment. Customers enrolled in Planned Maintenance receive full platform access.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🏋️",
@@ -392,7 +392,7 @@
       "Monthly consolidation",
       "Export for accounting"
     ],
-    "desc": "Complete invoice management with billable tracking, Net 10 terms, and monthly reporting per gym.",
+    "desc": "Complete invoice management with billable tracking, Net 10 terms, and monthly reporting per gym. Gyms not enrolled in PM program can subscribe monthly to manage service activity and performance insights.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🔬",
@@ -401,14 +401,14 @@
   },
   {
     "id": 26,
-    "title": "QR Code Generation Sys",
+    "title": "Members Report Issues",
     "services": [
-      "Asset QR codes",
-      "Quick service intake",
-      "Pre-filled forms",
-      "Equipment linking"
+      "QR code scanning",
+      "Quick complaint submission",
+      "Mobile phone access",
+      "Pre-filled equipment forms"
     ],
-    "desc": "Generate QR codes for equipment to enable quick service request submission via mobile scan.",
+    "desc": "Members scan a QR code on any piece of equipment and submit a quick complaint through their phone for instant service request creation.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🔐",
