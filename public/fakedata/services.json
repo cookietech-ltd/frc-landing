@@ -344,7 +344,7 @@
       "Warranty status",
       "Service history"
     ],
-    "desc": "Centralized equipment database system with QR codes enabling quick service request submission and comprehensive asset management for tracking.",
+    "desc": "Centralized equipment database system with QR codes enabling quick service request submission and asset management for tracking.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "📺",
@@ -360,7 +360,7 @@
       "Live status updates",
       "Service completion monitoring"
     ],
-    "desc": "Once approved the FRC platform automatically dispatches the right technician tracks progress and provides live updates throughout the service process.",
+    "desc": "Once approved the FRC platform automatically dispatches the right technician tracks progress and provides live updates throughout the process.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🌡️",

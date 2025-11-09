@@ -14,12 +14,12 @@ const Services3 = () => {
             <div className="section-title-area ltn__section-title-2 section-title-style-3">
               <div className="section-brief-in">
                 <p>
-                  Professional gym equipment management and comprehensive support services designed to keep your facility running at peak performance
+                    Customers enrolled in a Planned Maintenance program receive full access to the platform. <br/><br/> Gyms not enrolled in a PM program can subscribe monthly to manage service activity and performance insights through the same system.
                 </p>
               </div>
               <div className="section-title-in">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  {"//"} Why Choose FRC
+                  {"//"} How It Works
                 </h6>
                 <h1 className="section-title">
                   Premium Benefits & Services<span>.</span>
