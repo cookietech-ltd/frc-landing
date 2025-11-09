@@ -328,7 +328,7 @@
       "Mobile and web app access",
       "Priority assignment"
     ],
-    "desc": "The request is routed to gym staff for review and approval. Staff can also create new requests directly through the mobile or web app.",
+    "desc": "Requests are routed to gym staff for review and approval. Staff can also create new service requests through mobile or web.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🎨",
@@ -344,7 +344,7 @@
       "Warranty status",
       "Service history"
     ],
-    "desc": "Centralized equipment database with QR codes for quick service request submission and comprehensive asset management.",
+    "desc": "Centralized equipment database system with QR codes enabling quick service request submission and comprehensive asset management for tracking.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "📺",
@@ -353,14 +353,14 @@
   },
   {
     "id": 23,
-    "title": "We Handle the Rest",
+    "title": "We will Handle the Rest",
     "services": [
       "Automatic technician dispatch",
       "Real-time progress tracking",
       "Live status updates",
       "Service completion monitoring"
     ],
-    "desc": "Once approved, the FRC platform dispatches the right technician, tracks progress, and provides live updates throughout the service process.",
+    "desc": "Once approved the FRC platform automatically dispatches the right technician tracks progress and provides live updates throughout the service process.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🌡️",
@@ -369,14 +369,14 @@
   },
   {
     "id": 24,
-    "title": "Track and Review",
+    "title": "Track and Review Services",
     "services": [
       "Complete service history",
       "Cost tracking and analysis",
       "Completion details",
       "Equipment performance visibility"
     ],
-    "desc": "All service history, costs, and completion details are available in your dashboard, giving you full visibility into every piece of equipment. Customers enrolled in Planned Maintenance receive full platform access.",
+    "desc": "All service history costs and completion details are available in your dashboard providing full visibility into every piece of equipment.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🏋️",
@@ -392,7 +392,7 @@
       "Monthly consolidation",
       "Export for accounting"
     ],
-    "desc": "Complete invoice management with billable tracking, Net 10 terms, and monthly reporting per gym. Gyms not enrolled in PM program can subscribe monthly to manage service activity and performance insights.",
+    "desc": "Complete invoice management with billable tracking Net 10 terms and monthly reporting per gym with subscription options for service insights.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🔬",
@@ -408,7 +408,7 @@
       "Mobile phone access",
       "Pre-filled equipment forms"
     ],
-    "desc": "Members scan a QR code on any piece of equipment and submit a quick complaint through their phone for instant service request creation.",
+    "desc": "Members scan a QR code on any piece of equipment and submit a quick complaint through their phone for instant service request.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🔐",

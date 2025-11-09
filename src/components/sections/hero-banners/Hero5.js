@@ -12,13 +12,15 @@ const Hero5 = () => {
           <source src="media/frc.mp4" type="video/mp4" />
         </video>
 
-        {/* <!-- ltn__slide-item --> */}
-          {/* <!-- ltn__slide-item  --> */}
+          {/* <!-- ltn__slide-item --> */}
           <div
-              className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3 ltn__slide-item-5 text-color-white bg-image bg-overlay-theme-black-80"
-              data-bs-bg={sliderImage41.src}
+              className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-4 text-color-white position-relative"
           >
-              <div className="ltn__slide-item-inner">
+              <div 
+                  className="position-absolute top-0 start-0 w-100 h-100"
+                  style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', zIndex: 1 }}
+              ></div>
+              <div className="ltn__slide-item-inner text-center position-relative" style={{ zIndex: 2 }}>
                   <div className="container">
                       <div className="row">
                           <div className="col-lg-12 align-self-center">
@@ -54,11 +56,6 @@ const Hero5 = () => {
                                           </div>
                                       </div>
                                   </div>
-                              </div>
-                              <div className="slide-item-img">
-                                  <Image src={sliderImage41_1} alt="#" />
-                                  <span className="call-to-circle-1"></span>
-                                  {/* <!--  --> */}
                               </div>
                           </div>
                       </div>
