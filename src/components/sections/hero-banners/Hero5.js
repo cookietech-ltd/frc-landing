@@ -18,7 +18,7 @@ const Hero5 = () => {
           >
               <div 
                   className="position-absolute top-0 start-0 w-100 h-100"
-                  style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', zIndex: 1 }}
+                  style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', zIndex: 1 }}
               ></div>
               <div className="ltn__slide-item-inner text-center position-relative" style={{ zIndex: 2 }}>
                   <div className="container">
@@ -29,10 +29,10 @@ const Hero5 = () => {
                                       <div className="slide-item-info">
                                           <div className="slide-item-info-inner ltn__slide-animation">
                                               <h6 className="slide-sub-title ltn__secondary-color animated">
-                                                  {"//"} The First Maintenance as a Service Platform Built for the Fitness Industry
+                                                  {"//"}  Your Fitness Room Concierge
                                               </h6>
                                               <h1 className="slide-title animated ">
-                                                  Your Fitness <br /> Room Concierge
+                                                  The First Maintenance as a Service Platform Built for the Fitness Industry
                                               </h1>
                                               <div className="slide-brief animated">
                                                   <p>
