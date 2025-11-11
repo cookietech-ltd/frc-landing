@@ -1,9 +1,14 @@
+"use client";
 import ProductCardPrimary from "@/components/shared/cards/ProductCardPrimary";
 import getAllProducts from "@/libs/getAllProducts";
 import React from "react";
+import { useParams } from "next/navigation";
 
 const Products5 = ({ isRelated, title, tag }) => {
-  const products = getAllProducts()
+  const { id: currentId } = useParams();
+  const allProducts = getAllProducts();
+  const products = allProducts
+    ?.filter(({ id }) => id !== (currentId ? parseInt(currentId) : null))
     ?.sort((a, b) => b.disc - a.disc)
     .slice(0, 6);
 

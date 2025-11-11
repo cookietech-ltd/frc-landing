@@ -23,21 +23,7 @@ const ProductDetailsPrimary = () => {
             id === (isCar && !currentId ? 26 : !currentId ? 1 : parseInt(currentId))
     );
     // current product
-
-    const { type: currentType } = product;
-    // other slider images
-    const ohterImages = products?.filter(
-        ({ id, type }) =>
-            id !== parseInt(currentId) &&
-            (currentType === "auto"
-                ? !currentId
-                    ? type === currentType && id !== 26
-                    : type === currentType
-                : !currentId
-                    ? type !== "auto" && id !== 1
-                    : type !== "auto")
-    );
-    const allImages = [product, ...ohterImages?.slice(0, 6)];
+    const productImages = product?.images || [];
 
     return (
         <>
@@ -57,7 +43,7 @@ const ProductDetailsPrimary = () => {
                                     <div className={isNotSidebar ? "col-lg-6" : "col-md-6"}>
                                         <div className="ltn__shop-details-img-gallery">
                                             <div className="ltn__shop-details-large-img">
-                                                {allImages?.map(({ image }, idx) => (
+                                                {productImages?.map((image, idx) => (
                                                     <div key={idx} className="single-large-img">
                                                         <Link
                                                             href={image}
@@ -74,7 +60,7 @@ const ProductDetailsPrimary = () => {
                                                 ))}
                                             </div>
                                             <div className="ltn__shop-details-small-img slick-arrow-2">
-                                                {allImages?.map(({ image }, idx) => (
+                                                {productImages?.map((image, idx) => (
                                                     <div key={idx} className="single-small-img">
                                                         <Image
                                                             src={image}

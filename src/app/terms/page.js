@@ -3,7 +3,7 @@ import TermsMain from "@/components/layout/main/TermsMain";
 
 export default function Terms() {
   return (
-    <PageWrapper headerStyle={2} footerBg={"dark"} isNotHeaderTop={true}>
+    <PageWrapper headerStyle={2} footerStyle={2} footerBg={"dark"} isNotHeaderTop={true}>
       <TermsMain />
     </PageWrapper>
   );

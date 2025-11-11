@@ -17,11 +17,15 @@ const ServiceDetailsPrimary = () => {
     <div className="ltn__page-details-area ltn__service-details-area mb-105">
       <div className="container">
         <div className="row">
-          <div className="col-lg-8">
+          <div className="col-12">
+            <div className="ltn__blog-img">
+              <Image src={imageLarge} alt="Image" style={{ width: '100%', height: 'auto' }} />
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div >
             <div className="ltn__page-details-inner ltn__service-details-inner">
-              <div className="ltn__blog-img">
-                <Image src={imageLarge} alt="Image" />
-              </div>
               <p>
                 {" "}
                 <span className="ltn__first-letter">L</span>orem ipsum dolor sit
@@ -78,38 +82,7 @@ const ServiceDetailsPrimary = () => {
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident.
               </p>
-              <div className="ltn__service-list-menu text-uppercase mt-50">
-                <ul>
-                  <li>
-                    <i className="fas fa-car"></i> Front Brakes Repair{" "}
-                    <span className="service-price">
-                      $225.95 <span>Plus Parts</span>
-                    </span>{" "}
-                  </li>
-                  <li>
-                    <i className="fas fa-life-ring"></i> Rear Brakes Repair{" "}
-                    <span className="service-price">
-                      $225.95 <span>Plus Parts</span>
-                    </span>{" "}
-                  </li>
-                  <li>
-                    <i className="fas fa-cog"></i> Axle{" "}
-                    <span className="service-price">
-                      $225.95 <span>Plus Parts</span>
-                    </span>{" "}
-                  </li>
-                  <li>
-                    <i className="fas fa-car"></i> Starters / Alternators{" "}
-                    <span className="service-price">
-                      $225.95 <span>Plus Parts</span>
-                    </span>{" "}
-                  </li>
-                </ul>
-              </div>
             </div>
-          </div>
-          <div className="col-lg-4">
-            <ServiceSidebar />
           </div>
         </div>
       </div>
