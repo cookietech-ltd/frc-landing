@@ -3,13 +3,16 @@
 import { useMemo, useState } from "react";
 import apiClient from "@/libs/apiClient";
 
-function QuoteForm() {
+const QuoteForm = () => {
   const serviceOptions = useMemo(
     () => [
-      "Planned Maintenance",
+      "Planned Maintenance Program",
       "General Service",
       "Delivery",
       "Installation",
+      "Relocation",
+      "Extraction",
+      "Used Equipment",
     ],
     []
   );
@@ -27,15 +30,15 @@ function QuoteForm() {
   });
 
   const [errors, setErrors] = useState({});
-  const [status, setStatus] = useState({ type: "", message: "" });
+  const [status, setStatus] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleChange = (event) => {
-    const { name, value } = event.target;
-    setFormData((prev) => ({
-      ...prev,
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
       [name]: value,
-    }));
+    });
   };
 
   const validate = () => {
@@ -86,22 +89,21 @@ function QuoteForm() {
     return nextErrors;
   };
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
     const validationErrors = validate();
     if (Object.keys(validationErrors).length) {
       setErrors(validationErrors);
-      setStatus({ type: "error", message: "Please fix the highlighted fields." });
+      setStatus("Please fix the highlighted fields.");
       return;
     }
 
     setErrors({});
     setIsSubmitting(true);
-    setStatus({ type: "", message: "" });
+    setStatus("Sending...");
 
     try {
-      // Map frontend field names to backend schema
       const payload = {
         name: formData.name,
         email: formData.email,
@@ -114,14 +116,10 @@ function QuoteForm() {
         contact_time: formData.contactTime,
       };
 
-      const response = await apiClient.createVisitRequest(payload);
+      await apiClient.createVisitRequest(payload);
 
-      setStatus({
-        type: "success",
-        message: "Thank you! Your request has been submitted successfully. We'll contact you soon.",
-      });
+      setStatus("Thank you! Your request has been submitted successfully. We'll contact you soon.");
 
-      // Reset form after successful submission
       setFormData({
         name: "",
         email: "",
@@ -134,11 +132,9 @@ function QuoteForm() {
         contactTime: "",
       });
     } catch (error) {
-      // Handle backend validation errors
       if (error.errors) {
         const backendErrors = {};
         Object.keys(error.errors).forEach((key) => {
-          // Map backend field names to frontend
           const fieldMap = {
             gym_name: "gymName",
             service_type: "serviceType",
@@ -148,12 +144,9 @@ function QuoteForm() {
           backendErrors[frontendKey] = error.errors[key];
         });
         setErrors(backendErrors);
-        setStatus({ type: "error", message: "Please fix the highlighted fields." });
+        setStatus("Please fix the highlighted fields.");
       } else {
-        setStatus({
-          type: "error",
-          message: error.message || "Failed to submit request. Please try again.",
-        });
+        setStatus(error.message || "Failed to submit request. Please try again.");
       }
     } finally {
       setIsSubmitting(false);
@@ -161,19 +154,13 @@ function QuoteForm() {
   };
 
   return (
-    <section className="ltn__appointment-area pb-120">
+    <div className="ltn__appointment-area pb-120">
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
-            <div className="ltn__form-box contact-form-box box-shadow white-bg">
-              <div className="section-title-area text-center mb-50">
-                <h1 className="section-title">Request a Quote</h1>
-                <p>
-                  Share a few details about your facility and we&apos;ll follow up to
-                  schedule service fast.
-                </p>
-              </div>
-              <form onSubmit={handleSubmit} noValidate>
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="ltn__appointment-inner">
+              <form id="quote-form" onSubmit={(e) => handleSubmit(e)}>
+                <h6>Personal Information</h6>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="input-item input-item-name ltn__custom-icon">
@@ -182,7 +169,7 @@ function QuoteForm() {
                         name="name"
                         placeholder="Full name"
                         value={formData.name}
-                        onChange={handleChange}
+                        onChange={(e) => handleChange(e)}
                         aria-invalid={Boolean(errors.name)}
                         aria-describedby={errors.name ? "quote-name-error" : undefined}
                         required
@@ -199,9 +186,9 @@ function QuoteForm() {
                       <input
                         type="email"
                         name="email"
-                        placeholder="Work email"
+                        placeholder="Email address"
                         value={formData.email}
-                        onChange={handleChange}
+                        onChange={(e) => handleChange(e)}
                         aria-invalid={Boolean(errors.email)}
                         aria-describedby={errors.email ? "quote-email-error" : undefined}
                         required
@@ -218,9 +205,9 @@ function QuoteForm() {
                       <input
                         type="tel"
                         name="phone"
-                        placeholder="Contact number"
+                        placeholder="Phone number"
                         value={formData.phone}
-                        onChange={handleChange}
+                        onChange={(e) => handleChange(e)}
                         aria-invalid={Boolean(errors.phone)}
                         aria-describedby={errors.phone ? "quote-phone-error" : undefined}
                         required
@@ -239,7 +226,7 @@ function QuoteForm() {
                         name="gymName"
                         placeholder="Gym or organization name"
                         value={formData.gymName}
-                        onChange={handleChange}
+                        onChange={(e) => handleChange(e)}
                         aria-invalid={Boolean(errors.gymName)}
                         aria-describedby={errors.gymName ? "quote-gym-error" : undefined}
                         required
@@ -251,6 +238,10 @@ function QuoteForm() {
                       ) : null}
                     </div>
                   </div>
+                </div>
+
+                <h6>Facility Information</h6>
+                <div className="row">
                   <div className="col-12">
                     <div className="input-item input-item-textarea">
                       <input
@@ -258,7 +249,7 @@ function QuoteForm() {
                         name="address"
                         placeholder="Facility address"
                         value={formData.address}
-                        onChange={handleChange}
+                        onChange={(e) => handleChange(e)}
                         aria-invalid={Boolean(errors.address)}
                         aria-describedby={errors.address ? "quote-address-error" : undefined}
                         required
@@ -277,7 +268,7 @@ function QuoteForm() {
                         name="members"
                         placeholder="No. of members"
                         value={formData.members}
-                        onChange={handleChange}
+                        onChange={(e) => handleChange(e)}
                         min="1"
                         aria-invalid={Boolean(errors.members)}
                         aria-describedby={errors.members ? "quote-members-error" : undefined}
@@ -297,7 +288,7 @@ function QuoteForm() {
                         name="equipments"
                         placeholder="No. of equipments"
                         value={formData.equipments}
-                        onChange={handleChange}
+                        onChange={(e) => handleChange(e)}
                         min="0"
                         aria-invalid={Boolean(errors.equipments)}
                         aria-describedby={errors.equipments ? "quote-equipments-error" : undefined}
@@ -310,13 +301,17 @@ function QuoteForm() {
                       ) : null}
                     </div>
                   </div>
-                  <div className="col-md-6">
+                </div>
+
+                <h6>Service Information</h6>
+                <div className="row">
+                  <div className="col-12">
                     <div className="input-item">
                       <select
                         name="serviceType"
                         className="nice-select"
                         value={formData.serviceType}
-                        onChange={handleChange}
+                        onChange={(e) => handleChange(e)}
                         aria-invalid={Boolean(errors.serviceType)}
                         aria-describedby={errors.serviceType ? "quote-service-error" : undefined}
                         required
@@ -334,13 +329,15 @@ function QuoteForm() {
                       ) : null}
                     </div>
                   </div>
-                  <div className="col-md-6">
+                </div>
+                <div className="row">
+                  <div className="col-12">
                     <div className="input-item input-item-textarea ltn__custom-icon">
                       <textarea
                         name="contactTime"
                         placeholder="Preferred contact time or availability"
                         value={formData.contactTime}
-                        onChange={handleChange}
+                        onChange={(e) => handleChange(e)}
                         rows={4}
                         aria-invalid={Boolean(errors.contactTime)}
                         aria-describedby={
@@ -356,33 +353,36 @@ function QuoteForm() {
                     </div>
                   </div>
                 </div>
-                <div className="btn-wrapper text-center mt-30">
-                  <button 
-                    className="btn theme-btn-1 btn-effect-1" 
+
+                <div className="btn-wrapper text-center mt-0">
+                  <button
+                    className="btn theme-btn-1 btn-effect-1 text-uppercase"
                     type="submit"
                     disabled={isSubmitting}
                   >
-                    {isSubmitting ? "Submitting..." : "Request Information"}
+                    {isSubmitting ? "Submitting..." : "Submit Now"}
                   </button>
                 </div>
-                {status.message ? (
+                {status ? (
                   <p
-                    className="form-messege mb-0 mt-20 text-center"
+                    className="form-messege mb-0 mt-20"
                     style={{
-                      color: status.type === "error" ? "#ff4d4f" : "#1d9f40",
+                      color: status?.includes("Failed") || status?.includes("Please fix") ? "#ff4d4f" : "#1d9f40",
                     }}
                   >
-                    {status.message}
+                    {status}
                   </p>
-                ) : null}
+                ) : (
+                  ""
+                )}
               </form>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
-}
+};
 
 export default QuoteForm;
 

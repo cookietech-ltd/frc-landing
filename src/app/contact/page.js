@@ -4,7 +4,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <PageWrapper headerStyle={2} footerBg={"dark"} isNotHeaderTop={true}>
+    <PageWrapper headerStyle={2} footerStyle={2} footerBg={"dark"} isNotHeaderTop={true}>
       <ContactMain />
     </PageWrapper>
   );
