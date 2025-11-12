@@ -1,11 +1,12 @@
-import AboutMain from "@/components/layout/main/AboutMain";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 import React from "react";
+import TechnologyMain from "@/components/layout/main/TechnologyMain";
+import CallToaction from "@/components/sections/call-to-action/CallToaction";
 
 const About = () => {
   return (
-    <PageWrapper headerStyle={2} footerBg={"dark"} isNotHeaderTop={true}>
-      <AboutMain />
+    <PageWrapper headerStyle={2} footerStyle={2} footerBg={"dark"} isNotHeaderTop={true}>
+        <TechnologyMain />
     </PageWrapper>
   );
 };
