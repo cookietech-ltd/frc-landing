@@ -9,7 +9,7 @@ import Link from "next/link";
 import React from "react";
 
 const ProductCard = ({ product }) => {
-  const { title, price, disc, image, id, status, run, model, type, color } =
+  const { title, price, disc, image, id, status, size, brand, type, color } =
     product;
   const { setCurrentProduct } = useProductContext();
   const { netPrice } = countDiscount(price, disc);
@@ -85,16 +85,16 @@ const ProductCard = ({ product }) => {
         <div className="product-info-brief">
           <ul>
             <li>
-              <i className="fas fa-car"></i>
-              {model}
+              <i className="fas fa-shop"></i>
+              {brand}
             </li>
             <li>
-              <i className="fas fa-cog"></i>
+              <i className="fas fa-dumbbell"></i>
               {type}
             </li>
             <li>
-              <i className="fas fa-road"></i>
-              {run}kph
+              <i className="fas fa-brush"></i>
+              {color}
             </li>
           </ul>
         </div>
