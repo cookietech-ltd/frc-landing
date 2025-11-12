@@ -14,7 +14,7 @@ const BlogCategories = () => {
     "Consultant",
     "Creative",
     "UI/UX",
-    "Technology",
+    "technology",
   ];
   return (
     <div className="widget ltn__menu-widget ltn__menu-widget-2 ltn__menu-widget-2-color-2">

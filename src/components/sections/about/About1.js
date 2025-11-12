@@ -10,7 +10,7 @@ const About1 = () => {
                         <div className="about-us-info-wrap">
                             <div className="section-title-area ltn__section-title-2">
                                 <h6 className="section-subtitle ltn__secondary-color">
-                                    {"// Technology and Transparency"}
+                                    {"// technology and Transparency"}
                                 </h6>
                                 <h1 className="section-title">
                                     Real-Time Visibility and Transparency<span>.</span>

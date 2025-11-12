@@ -12,6 +12,11 @@ const Navbar = () => {
       dropdown: null,
     },
     {
+      name: "Technology",
+      path: "/technology",
+      dropdown: null,
+    },
+    {
       name: "Services",
       path: "/services",
       dropdown: null,
@@ -56,7 +61,7 @@ const Navbar = () => {
               headerStyle === 2 ||
               headerStyle === 4 ? (
                 <li className="special-link">
-                  <Link href="/appointment">GET APPOINTMENT</Link>
+                  <Link href="/appointment">REQUEST A QUOTE</Link>
                 </li>
               ) : (
                 ""

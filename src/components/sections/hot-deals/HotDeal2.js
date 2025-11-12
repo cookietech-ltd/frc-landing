@@ -19,33 +19,21 @@ const HotDeal2 = ({ type }) => {
                 type === 2 ? "" : "text-color-white "
               } text-center`}
             >
-              <h2 className="ltn__secondary-color">Hurry Up!</h2>
-              <h1 className="h1">Hot Deal! Sale Up To 20% off</h1>
+              <h1 className="h1">Customers enrolled in a Planned Maintenance program receive full access to the platform.</h1>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />{" "}
-                Explicabo id, unde hic molestias omnis.
+                  Gyms not enrolled in a PM program can subscribe monthly to manage service activity and <br />{" "} performance insights through the same system.
               </p>
-              <div
-                className="ltn__countdown ltn__countdown-3 "
-                data-countdown="2025/12/01"
-              ></div>
               <div className="btn-wrapper animated">
                 <a
-                  href="/shop"
+                  href="/technology"
                   className="theme-btn-1 btn btn-effect-1 text-uppercase"
                 >
-                  Shop now
+                  Learn more
                 </a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="ltn__call-to-4-img-1">
-        <Image src={productImage7} alt="#" placeholder="blur" />
-      </div>
-      <div className="ltn__call-to-4-img-2">
-        <Image src={bgImage11} alt="#" placeholder="blur" />
       </div>
     </div>
   );

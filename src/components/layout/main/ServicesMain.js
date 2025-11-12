@@ -42,8 +42,8 @@ const ServicesMain = ({ title }) => {
 
       {!category ? (
         <>
-          <History />
-          <Videos2 />
+          {/*<History />*/}
+          {/*<Videos2 />*/}
           <PreviousServicesSlider />
         </>
       ) : (

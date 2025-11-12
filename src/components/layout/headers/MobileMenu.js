@@ -20,6 +20,11 @@ const MobileMenu = () => {
       accordion: null,
     },
     {
+      name: "Technology",
+      path: "/technology",
+      accordion: null,
+    },
+    {
       name: "Services",
       path: "/services",
       accordion: null,
@@ -84,36 +89,6 @@ const MobileMenu = () => {
                 )}
               </li>
             ))}
-          </ul>
-        </div>
-        <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
-          <ul>
-            <li>
-              <Link href="/account" title="My Account">
-                <span className="utilize-btn-icon">
-                  <i className="far fa-user"></i>
-                </span>
-                My Account
-              </Link>
-            </li>
-            <li>
-              <Link href="/wishlist" title="Wishlist">
-                <span className="utilize-btn-icon">
-                  <i className="far fa-heart"></i>{" "}
-                  <sup>{totalWishlistProduct}</sup>
-                </span>
-                Wishlist
-              </Link>
-            </li>
-            <li>
-              <Link href="/cart" title="Shoping Cart">
-                <span className="utilize-btn-icon">
-                  <i className="fas fa-shopping-cart"></i>{" "}
-                  <sup>{totalCartProduct}</sup>
-                </span>
-                Shoping Cart
-              </Link>
-            </li>
           </ul>
         </div>
         <div className="ltn__social-media-2">

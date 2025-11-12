@@ -49,19 +49,19 @@
   },
   {
     "id": 4,
-    "title": "Membership Management Solutions",
+    "title": "Equipment Relocation",
     "services": [
-      "Member registration",
-      "Payment processing",
-      "Attendance tracking",
-      "Member portal access"
+      "Safe and efficient equipment moves",
+      "Across the room or across town",
+      "Professional handling and transport",
+      "Complete documentation and records"
     ],
-    "desc": "Streamline your gym operations with our comprehensive membership management system.",
+    "desc": "Whether moving equipment across the room or across town, we handle it safely and efficiently.",
     "detailsImg": null,
     "img": null,
-    "imgAlt": "👥",
-    "category": "membership management",
-    "duration": "2100"
+    "imgAlt": "🚚",
+    "category": "relocation",
+    "duration": "1700"
   },
   {
     "id": 5,
@@ -81,19 +81,19 @@
   },
   {
     "id": 6,
-    "title": "Training & Staff Development",
+    "title": "Equipment Extraction",
     "services": [
-      "Equipment training",
-      "Safety certification",
-      "Maintenance workshops",
-      "Staff onboarding"
+      "Certified extraction and recycling",
+      "Retired asset removal",
+      "Environmental responsibility",
+      "Complete documentation and records"
     ],
-    "desc": "Empower your staff with comprehensive training programs and certifications.",
+    "desc": "We provide certified extraction and recycling for retired assets, with full documentation for your records.",
     "detailsImg": null,
     "img": null,
-    "imgAlt": "📚",
-    "category": "training programs",
-    "duration": "2700"
+    "imgAlt": "♻️",
+    "category": "extraction",
+    "duration": "1700"
   },
   {
     "id": 7,

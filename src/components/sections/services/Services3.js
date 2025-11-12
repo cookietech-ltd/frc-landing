@@ -2,6 +2,7 @@ import ServiceCard3 from "@/components/shared/cards/ServiceCard3";
 import getAllServices from "@/libs/getAllServices";
 import Image from "next/image";
 import otherImage2 from "@/assets/img/others/other_frc.png";
+import Link from "next/link";
 
 const Services3 = () => {
   const services1 = getAllServices()?.filter(({ id }) => id > 20 && id < 24);
@@ -9,25 +10,17 @@ const Services3 = () => {
   return (
     <div className="ltn__feature-area pt-115 pb-80">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="section-title-area ltn__section-title-2 section-title-style-3">
-              <div className="section-brief-in">
-                <p>
-                    Customers enrolled in a Planned Maintenance program receive full access to the platform. <br/><br/> Gyms not enrolled in a PM program can subscribe monthly to manage service activity and performance insights through the same system.
-                </p>
+
+          <div className="about-us-info-wrap">
+              <div className="section-title-area ltn__section-title-2 text-center">
+                  <h6 className="section-subtitle ltn__secondary-color">
+                      {"//"} How It Works
+                  </h6>
+                  <h1 className="section-title">
+                      Premium Benefits & Services<span>.</span>
+                  </h1>
               </div>
-              <div className="section-title-in">
-                <h6 className="section-subtitle ltn__secondary-color">
-                  {"//"} How It Works
-                </h6>
-                <h1 className="section-title">
-                  Premium Benefits & Services<span>.</span>
-                </h1>
-              </div>
-            </div>
           </div>
-        </div>
         <div className="row">
           <div className="col-lg-4">
             <div className="row  justify-content-center">

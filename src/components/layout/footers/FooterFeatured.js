@@ -8,15 +8,15 @@ const FooterFeatured = () => {
   const contact = [
     {
       title: "Make A Call",
-      subTitle: "+123-456-789",
+      subTitle: "(412)-520-5857",
       img: contactImage7,
-      path: "tel:+123456789",
+      path: "tel:+4125205857",
     },
     {
       title: "Support Mail",
-      subTitle: "info@webmail.com",
+      subTitle: "info@myfitnessroom..",
       img: contactImage8,
-      path: "mailto:info@webmail.com",
+      path: "mailto:info@myfitnessroomconcierge.com",
     },
     {
       title: "Office Address",

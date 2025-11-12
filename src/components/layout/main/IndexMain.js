@@ -24,6 +24,10 @@ import Video from "@/components/sections/videos/Video";
 import Brands2 from "@/components/sections/brands/Brands2";
 import Offer2 from "@/components/sections/offers/Offer2";
 import About from "@/app/about/page";
+import CallToAction4 from "@/components/sections/call-to-action/CallToAction4";
+import CallToAction6 from "@/components/sections/call-to-action/CallToAction6";
+import CallToActionForm from "@/components/sections/call-to-action/CallToActionForm";
+import HotDeal2 from "@/components/sections/hot-deals/HotDeal2";
 
 const IndexMain = () => {
   return (
@@ -31,11 +35,12 @@ const IndexMain = () => {
         <Hero5 />
       <About2 />
         <Features2 />
-        <Features3 />
+        {/*<Features3 />*/}
 
         <Portfolio2 />
 
         <Services3 />
+        <HotDeal2 />
         <About1 />
         <Video />
         <CounterUp />

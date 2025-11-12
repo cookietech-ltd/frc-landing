@@ -9,14 +9,6 @@ const PortfolioCard2 = ({ portfolioSingle }) => {
       <Link href={img.src} data-rel="lightcase:myCollection">
         <Image src={img} alt="Image" />
       </Link>
-      <div className="ltn__img-slide-info">
-        <div className="ltn__img-slide-info-brief">
-          <h6>{dep}</h6>
-          <h1>
-              {title}
-          </h1>
-        </div>
-      </div>
     </div>
   );
 };

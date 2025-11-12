@@ -28,9 +28,6 @@ const Hero5 = () => {
                                   <div className="slide-item-info-inner ltn__slide-animation">
                                       <div className="slide-item-info">
                                           <div className="slide-item-info-inner ltn__slide-animation">
-                                              <h6 className="slide-sub-title ltn__secondary-color animated">
-                                                  {"//"}  Your Fitness Room Concierge
-                                              </h6>
                                               <h1 className="slide-title animated ">
                                                   The First Maintenance as a Service Platform Built for the Fitness Industry
                                               </h1>
@@ -41,13 +38,13 @@ const Hero5 = () => {
                                               </div>
                                               <div className="btn-wrapper animated">
                                                   <Link
-                                                      href="/services"
+                                                      href="/appointment"
                                                       className="theme-btn-1 btn btn-effect-1"
                                                   >
                                                       Request a Quote
                                                   </Link>{" "}
                                                   <Link
-                                                      href="/about"
+                                                      href="/technology"
                                                       className="btn btn-transparent btn-effect-2 white-color"
                                                   >
                                                       Learn About Our Platform

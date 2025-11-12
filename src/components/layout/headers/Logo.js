@@ -45,7 +45,7 @@ const Logo = ({ sticky }) => {
               <i className="icon-call"></i>
             </div>
             <div className="get-support-info">
-              <h6>Get Support</h6>
+              <h6>Make A Call</h6>
               <h4>
                 <Link href="tel:+412-5205857">(412)-520-5857</Link>
               </h4>

@@ -7,7 +7,7 @@ const FooterAbout = () => {
       <div className="footer-widget footer-about-widget clearfix">
         <h4 className="footer-title">About Us.</h4>
         <p>
-          Fitness Room Concierge provides end-to-end equipment care for gyms and fitness facilities. We simplify every aspect of equipment ownership through{" "}
+          Fitness Room Concierge is a veteran owned and operated company providing end-to-end equipment care for gyms and fitness facilities. We simplify every aspect of equipment ownership through{" "}
           <Link href="/services">proactive maintenance</Link>, warranty management, fast repair, and{" "}
           <Link href="/services">professional installation</Link>. Our platform connects members, staff, and technicians in one seamless ecosystem.
         </p>
