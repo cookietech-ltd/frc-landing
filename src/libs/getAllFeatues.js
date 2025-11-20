@@ -101,6 +101,46 @@ const getAllFeatues = () => {
       bg: "white",
       bgImg: null,
     },
+
+
+    // Adding Below this line for Technology page
+
+    {
+      id: 12,
+      title: "Concierge Planned Maintenance",
+      img: <i className="icon-maintenance-1"></i>,
+      path: "/services",
+      desc: "Our signature program for proactive equipment care with monthly scheduled visits including detailed inspections cleaning and calibration for all covered machines.",
+      bg: "white",
+      bgImg: null,
+    },
+    {
+      id: 13,
+      title: "Equipment Database System",
+      img: <i className="icon-edit"></i>,
+      path: "/services",
+      desc: "Centralized equipment database system with QR codes enabling quick service request submission and asset management for tracking.",
+      bg: "white",
+      bgImg: null,
+    },
+    {
+      id: 14,
+      title: "Invoice Management",
+      img: <i className="icon-award"></i>,
+      path: "/services",
+      desc: "Complete invoice management with billable tracking Net 10 terms and monthly reporting per gym with subscription options for service insights.",
+      bg: "white",
+      bgImg: null,
+    },
+    {
+      id: 15,
+      title: "Delivery and Installation",
+      img: <i className="icon-mechanic"></i>,
+      path: "/services",
+      desc: "Professional delivery and setup for new facilities remodels or equipment refresh projects completed with precision testing and final verification checks.",
+      bg: "white",
+      bgImg: null,
+    },
   ];
 
   return features;

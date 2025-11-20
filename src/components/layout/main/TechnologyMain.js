@@ -3,7 +3,7 @@ import TechnologyPrimary from "@/components/sections/technology/TechnologyPrimar
 import CallToaction from "@/components/sections/call-to-action/CallToaction";
 import React from "react";
 import TechnologyCallToAction from "@/components/sections/technology/TechnologyCallToAction";
-import Features2 from "@/components/sections/features/Features2";
+import Features2_2 from "@/components/sections/features/Features2_2";
 import TechnologySecondary from "@/components/sections/technology/TechnologySecondary";
 
 const TechnologyMain = () => {
@@ -17,7 +17,7 @@ const TechnologyMain = () => {
       <TechnologyCallToAction/> {/*Maintenance Service Banner*/}
       <br/><br/>
       <TechnologyPrimary />
-      <Features2 />
+      <Features2_2 />
       <TechnologySecondary/>
     </main>
   );
