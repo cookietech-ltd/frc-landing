@@ -20,7 +20,7 @@ const FooterFeatured = () => {
     },
     {
       title: "Office Address",
-      subTitle: "12/A, New York, USA",
+      subTitle: "721 Aunt Clara Rd, Burgettstown Pa 15021",
       img: contactImage9,
       path: "/locations",
     },
