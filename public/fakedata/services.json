@@ -319,8 +319,24 @@
     "category": "market research",
     "duration": "1900"
   },
-  {
+    {
     "id": 21,
+    "title": "Members Report Issues",
+    "services": [
+      "QR code scanning",
+      "Quick complaint submission",
+      "Mobile phone access",
+      "Pre-filled equipment forms"
+    ],
+    "desc": "Members scan a QR code on any piece of equipment and submit a quick complaint through their phone for instant service request.",
+    "detailsImg": null,
+    "img": null,
+    "imgAlt": "🔐",
+    "category": "access control",
+    "duration": "2100"
+  },
+  {
+    "id": 22,
     "title": "Staff Review and Approve",
     "services": [
       "Request review and approval",
@@ -335,23 +351,7 @@
     "category": "branding",
     "duration": "2100"
   },
-  {
-    "id": 22,
-    "title": "Equipment Database System",
-    "services": [
-      "Asset tracking",
-      "QR code generation",
-      "Warranty status",
-      "Service history"
-    ],
-    "desc": "Centralized equipment database system with QR codes enabling quick service request submission and asset management for tracking.",
-    "detailsImg": null,
-    "img": null,
-    "imgAlt": "📺",
-    "category": "display solutions",
-    "duration": "2100"
-  },
-  {
+    {
     "id": 23,
     "title": "We will Handle the Rest",
     "services": [
@@ -385,6 +385,22 @@
   },
   {
     "id": 25,
+    "title": "Equipment Database System",
+    "services": [
+      "Asset tracking",
+      "QR code generation",
+      "Warranty status",
+      "Service history"
+    ],
+    "desc": "Centralized equipment database system with QR codes enabling quick service request submission and asset management for tracking.",
+    "detailsImg": null,
+    "img": null,
+    "imgAlt": "📺",
+    "category": "display solutions",
+    "duration": "2100"
+  },
+  {
+    "id": 26,
     "title": "Invoice Management",
     "services": [
       "Billable work tracking",
@@ -392,27 +408,11 @@
       "Monthly consolidation",
       "Export for accounting"
     ],
-    "desc": "Complete invoice management with billable tracking Net 10 terms and monthly reporting per gym with subscription options for service insights.",
+    "desc": "Complete invoice management with billable tracking and monthly reporting for service insights.",
     "detailsImg": null,
     "img": null,
     "imgAlt": "🔬",
     "category": "diagnostics",
-    "duration": "2100"
-  },
-  {
-    "id": 26,
-    "title": "Members Report Issues",
-    "services": [
-      "QR code scanning",
-      "Quick complaint submission",
-      "Mobile phone access",
-      "Pre-filled equipment forms"
-    ],
-    "desc": "Members scan a QR code on any piece of equipment and submit a quick complaint through their phone for instant service request.",
-    "detailsImg": null,
-    "img": null,
-    "imgAlt": "🔐",
-    "category": "access control",
     "duration": "2100"
   },
   {
