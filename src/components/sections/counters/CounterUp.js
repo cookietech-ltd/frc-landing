@@ -32,20 +32,6 @@ const CounterUp = () => {
       letter: null,
       sym: "+",
     },
-
-
-    // {
-    //   title: "Emergency Support",
-    //   num: null,
-    //   letter: "24/7",
-    //   sym: null,
-    // },
-    // {
-    //   title: "Trained Staffs",
-    //   num: 100,
-    //   letter: null,
-    //   sym: "%",
-    // },
   ];
   return (
     <div
@@ -56,7 +42,7 @@ const CounterUp = () => {
         <div className="row">
           <div className="col-lg-4 col-md-12">
             <div className="section-title-area ltn__section-title-2">
-              <h6 className="section-subtitle white-color">// activity</h6>
+              <h6 className="section-subtitle white-color">{"//"} activity</h6>
               <h1 className="section-title white-color">
                 Watch Our Journey<span>.</span>
               </h1>
@@ -68,7 +54,7 @@ const CounterUp = () => {
           {items?.map(({ title, num, letter, sym }, idx) => (
             <div key={idx} className="col">
               <div className="ltn__counterup-item-3 text-color-white">
-                <div className="counter-icon">//</div>
+                <div className="counter-icon"> {"//"} </div>
                 <h1>
                   {num != null && <span className="counter">{num}</span>}
                   {letter && <span className="counterUp-letter">{letter}</span>}
@@ -81,6 +67,8 @@ const CounterUp = () => {
         </div>
       </div>
     </div>
+  );
+};
 
 
 
@@ -124,7 +112,5 @@ const CounterUp = () => {
     //     </div>
     //   </div>
     // </div>
-  );
-};
 
 export default CounterUp;
