@@ -4,6 +4,7 @@ import CallToaction from "@/components/sections/call-to-action/CallToaction";
 import React from "react";
 import TechnologyCallToAction from "@/components/sections/technology/TechnologyCallToAction";
 import Features2 from "@/components/sections/features/Features2";
+import TechnologySecondary from "@/components/sections/technology/TechnologySecondary";
 
 const TechnologyMain = () => {
   return (
@@ -13,10 +14,11 @@ const TechnologyMain = () => {
         text="Technology"
         type={2}
       />
+      <TechnologyCallToAction/> {/*Maintenance Service Banner*/}
+      <br/><br/>
       <TechnologyPrimary />
-        <TechnologyCallToAction/>
-        <br/><br/>
-        <Features2 />
+      <Features2 />
+      <TechnologySecondary/>
     </main>
   );
 };
