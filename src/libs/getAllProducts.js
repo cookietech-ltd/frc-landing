@@ -20,7 +20,7 @@ import store34 from "@/assets/img/store/store34.jpg";
 import store35 from "@/assets/img/store/store35.jpg";
 import store36 from "@/assets/img/store/store36.jpg";
 import store37 from "@/assets/img/store/store37.jpg";
-import store41 from "@/assets/img/store/store41.jpeg";
+import store41 from "@/assets/img/store/store41.jpg";
 import store42 from "@/assets/img/store/store42.jpeg";
 import store43 from "@/assets/img/store/store43.jpeg";
 import store44 from "@/assets/img/store/store44.jpeg";
