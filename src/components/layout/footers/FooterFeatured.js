@@ -22,7 +22,7 @@ const FooterFeatured = () => {
       title: "Office Address",
       subTitle: "105 international drive Oakdale PA 15071",
       img: contactImage9,
-      path: "/locations",
+      path: "https://maps.app.goo.gl/Po3jo6CGmBZfqbc68?g_st=ipc",
     },
   ];
   return (
@@ -36,7 +36,7 @@ const FooterFeatured = () => {
                   <Image src={img} alt="Icon Image" width={200} height={200} />
                 </div>
                 <div className="ltn__contact-feature-info">
-                   <Link href={path}>
+                   <Link href={path} target="_blank" rel="noopener noreferrer">
                     <span className="h6">{subTitle}</span>
                      <br />
                      <span className="h2">{title}</span>
