@@ -11,7 +11,7 @@ const BlogDetails = ({ params }) => {
     notFound();
   }
   return (
-    <PageWrapper headerStyle={2} footerBg={"dark"} isNotHeaderTop={true}>
+    <PageWrapper headerStyle={2} footerStyle={2} footerBg={"dark"} isNotHeaderTop={true}>
       <BlogDetailsMain />
     </PageWrapper>
   );
