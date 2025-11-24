@@ -1,87 +1,78 @@
 "use client";
-import { useParams } from "next/navigation";
-import getAllServices from "@/libs/getAllServices";
-import Image from "next/image";
 
-import serviceImage31 from "@/assets/img/service/fitness-equipment-repair_orig.jpg";
-import serviceImage32 from "@/assets/img/service/32.jpg";
-import ServiceSidebar from "@/components/shared/sidebars/ServiceSidebar";
+import { useParams, useRouter } from "next/navigation";
+import { useEffect } from "react";
+import getServices from "@/components/sections/service-details/getServices";
+import Image from "next/image";
+import React from "react";
 
 const ServiceDetailsPrimary = () => {
   const { id: currentId } = useParams();
-  const currentService = getAllServices()?.find(
-    ({ id }) => id === parseInt(currentId)
+  const router = useRouter();
+
+  // Find the current service based on the ID from the URL
+  const currentService = getServices()?.find(
+    ({ id }) => id === Number(currentId)
   );
-  const { imageLarge } = currentService ? currentService : {};
+
+  // Redirect if service not found
+  useEffect (() => {
+    if (!currentService) {
+      router.push("/services");
+    }
+  }, [currentService, router]);
+  
+
+  if (!currentService) {
+    return null; 
+  }
+
+  const { imageLarge, title, longDescription } = currentService;
+
   return (
     <div className="ltn__page-details-area ltn__service-details-area mb-105">
       <div className="container">
+
+        {/* Image Section */}
         <div className="row">
           <div className="col-12">
             <div className="ltn__blog-img">
-              <Image src={imageLarge} alt="Image" style={{ width: '100%', height: 'auto' }} />
+              {/* Use the image from JSON */}
+              {imageLarge ? (
+                 <Image 
+                   src={imageLarge} 
+                   alt={title} 
+                   style={{ width: '100%', height: 'auto' }} 
+                   priority // Good for LCP since it's the main image
+                 />
+              ) : (
+                 // Fallback if image is missing in JSON
+                 <div style={{background: '#eee', height: '400px', display:'flex', alignItems:'center', justifyContent:'center'}}>
+                    No Image Available
+                 </div>
+              )}
             </div>
           </div>
         </div>
+
+        {/* Text section */}
         <div className="row">
-          <div >
+          <div className="col-12">
             <div className="ltn__page-details-inner ltn__service-details-inner">
-              <p>
-                {" "}
-                <span className="ltn__first-letter">L</span>orem ipsum dolor sit
-                amet, consectetur adipisicing elit, sed do eiusmod tempor incidi
-                dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exerc itation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione.{" "}
-              </p>
-              <div className="row">
-                <div className="col-lg-6">
-                  <Image src={serviceImage31} alt="image" />
-                  <label>Image caption here.</label>
-                </div>
-                <div className="col-lg-6">
-                  <Image src={serviceImage32} alt="image" />
-                </div>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione.{" "}
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-              </p>
+              {/* Rendering a <p> tag for every string in the array */}
+              {longDescription && longDescription.map((paragraph, index) => (
+                <p key={index}>
+                  {/* Rendering capital for first paragraph */}
+                  {index === 0 ? (
+                      <>
+                        <span className="ltn__first-letter">{paragraph.charAt(0)}</span>
+                        {paragraph.slice(1)}
+                      </>
+                  ) : (
+                      paragraph
+                  )}
+                </p>
+              ))}
             </div>
           </div>
         </div>
