@@ -56,8 +56,7 @@ const BlogDetailsPrimary = () => {
     <div className="ltn__page-details-area ltn__blog-details-area mb-120">
       <div className="container">
         <div className="row">
-          <div className="col-lg-8">
-            <div className="ltn__blog-details-wrap">
+          <div className="col-lg-12">
               <div className="ltn__page-details-inner ltn__blog-details-inner">
                 <div className="ltn__blog-meta">
                   <ul>
@@ -348,9 +347,8 @@ const BlogDetailsPrimary = () => {
                 </div>
                 {/* Comments section hidden - not needed for fitness equipment content */}
               </div>
-            </div>
           </div>
-          <div className="col-lg-4">
+          {/* <div className="col-lg-4">
             <CommonContext
               value={{
                 author,
@@ -366,7 +364,7 @@ const BlogDetailsPrimary = () => {
             >
               <BlogSidebar />
             </CommonContext>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
