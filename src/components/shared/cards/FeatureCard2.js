@@ -8,19 +8,30 @@ const FeatureCard2 = ({ feature, idx }) => {
       className={`ltn__feature-item ltn__feature-item-6 ${
         idx === 1 ? "active" : ""
       }`}
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        // height: "100%",
+      }}
     >
-      <div className="ltn__feature-icon">
-        <span>{img}</span>
+      <div style={{ flex: 1 }}>
+        <div className="ltn__feature-icon">
+          <span>{img}</span>
+        </div>
+        <div className="ltn__feature-info" style={{ display: "flex", flexDirection: "column" }}>
+          <h3 style={{ marginBottom: "16px" }}>
+            <Link href={path}>{title}</Link>
+          </h3>
+          <p style={{ flexGrow: 1 }}>{desc}</p>
+        </div>
       </div>
-      <div className="ltn__feature-info">
-        <h3>
-          <Link href={path}>{title}</Link>
-        </h3>
-        <p>{desc}</p>
-        <Link className="ltn__service-btn" href={path}>
-          Read More
-        </Link>
-      </div>
+      <Link
+        className="ltn__service-btn"
+        href={path}
+        style={{ fontWeight: "600", marginTop: "auto" }}
+      >
+        Read More
+      </Link>
     </div>
   );
 };

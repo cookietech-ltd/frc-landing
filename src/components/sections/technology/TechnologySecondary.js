@@ -14,13 +14,12 @@ const TechnologySecondary = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="ltn__page-details-inner ltn__service-details-inner">
-              <p>
-                {" "}
-                <span className="ltn__first-letter">T</span>he FRC platform connects every part of your equipment service process in one simple system. When a member notices an equipment issue, they scan the QR code to submit a quick report. Staff review and approve each request, and once approved it appears in the FRC dashboard for our technicians and support team to handle.
-              </p>
-
               <div className="row">
                   <div className="col-lg-8">
+                      <p>
+                        {" "}
+                        <span className="ltn__first-letter">T</span>he FRC platform connects every part of your equipment service process in one simple system. When a member notices an equipment issue, they scan the QR code to submit a quick report. Staff review and approve each request, and once approved it appears in the FRC dashboard for our technicians and support team to handle.
+                      </p>
                       <p>
                           Every request is tracked from start to finish, and each machine builds a complete history of repairs, technician notes, and planned maintenance visits. Managers can monitor real time status updates and understand overall performance at a glance.
                             <br/><br/>
@@ -29,7 +28,7 @@ const TechnologySecondary = () => {
                           The system is fully integrated with the FRC technician network and support team. To ensure consistent service quality, it currently does not support external service providers.
 
                       </p>
-                      <div className="ltn__service-list-menu text-uppercase mt-50">
+                      {/* <div className="ltn__service-list-menu text-uppercase mt-50">
                           <ul>
                               <li>
                                   <i className="fas fa-qrcode"></i> Scan the Code – Each machine has a QR code. Scan it to report an issue in seconds.{" "}
@@ -48,9 +47,9 @@ const TechnologySecondary = () => {
                                   <i className="fas fa-calendar-plus"></i> Stay Ahead – Use planned maintenance programs to prevent issues before they happen.{" "}
                               </li>
                           </ul>
-                      </div>
+                      </div> */}
                   </div>
-                <div className="col-lg-4">
+                <div className="col-lg-3">
                   <Image src={technologySample2} alt="image"  />
                 </div>
               </div>
