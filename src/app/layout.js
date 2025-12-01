@@ -36,8 +36,8 @@ export default function RootLayout({ children }) {
 
           <Script src="/plugins.js" />
           <Script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeeHDCOXmUMja1CFg96RbtyKgx381yoBU"
-            async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeeHDCOXmUMja1CFg96RbtyKgx381yoBU&loading=async"
+            strategy="afterInteractive"
           />
         </Suspense>
       </body>
