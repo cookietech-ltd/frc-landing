@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 const FooterNewsFeeds = () => {
-  const blogs = getAllBlogs()?.filter(({ id }) => id > 24 && id < 28);
+  const blogs = getAllBlogs()?.filter(({ id }) => id > 0 && id < 4);
   return (
     <div className="col-xl-3 col-md-6">
       <div className="footer-widget footer-blog-widget">
