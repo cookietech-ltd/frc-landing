@@ -1,17 +1,17 @@
-import blogImage1 from "@/assets/img/blog/blog-details/1.jpg";
-import blogImage2 from "@/assets/img/blog/blog-details/11.jpg";
-import blogImage3 from "@/assets/img/service/31.jpg";
-import blogImage4 from "@/assets/img/service/32.jpg";
-import blogImage5 from "@/assets/img/blog/blog-details/12.jpg";
-import blogImage6 from "@/assets/img/service/33.jpg";
-import blogImage7 from "@/assets/img/blog/1.jpg";
-import blogImage8 from "@/assets/img/service/34.jpg";
-import blogImage9 from "@/assets/img/blog/2.jpg";
-import blogImage10 from "@/assets/img/service/21.jpg";
-import blogImage11 from "@/assets/img/blog/3.jpg";
-import blogImage12 from "@/assets/img/service/22.jpg";
-import blogImage13 from "@/assets/img/blog/4.jpg";
-import blogImage14 from "@/assets/img/service/23.jpg";
+import blogImage1 from "@/assets/img/blog/blog-details/gym1.jpg";
+import blogImage2 from "@/assets/img/blog/blog-details/gym2.jpg";
+import blogImage3 from "@/assets/img/blog/blog-details/gym3.jpg";
+import blogImage4 from "@/assets/img/blog/blog-details/gym4.jpg";
+import blogImage5 from "@/assets/img/blog/blog-details/gym5.jpg";
+import blogImage6 from "@/assets/img/blog/blog-details/gym6.jpg";
+import blogImage7 from "@/assets/img/blog/blog-details/gym7.jpg";
+import blogImage8 from "@/assets/img/blog/blog-details/gym8.jpg";
+import blogImage9 from "@/assets/img/blog/blog-details/gym9.jpg";
+import blogImage10 from "@/assets/img/blog/blog-details/gym10.jpg";
+import blogImage11 from "@/assets/img/blog/blog-details/gym11.jpg";
+import blogImage12 from "@/assets/img/blog/blog-details/gym12.jpg";
+import blogImage13 from "@/assets/img/blog/blog-details/gym13.jpg";
+import blogImage14 from "@/assets/img/blog/blog-details/gym14.jpg";
 
 import authorRon from "@/assets/img/team/1.jpg"; // Ron M. (CEO)
 import authorOlivia from "@/assets/img/team/2.jpg"; // Olivia M. (CFO)
@@ -46,7 +46,7 @@ const getAllBlogs = () => {
         <p>When I talk with gym owners across the country, I hear the same thing again and again: <strong>"We just deal with broken equipment. It is part of the business."</strong></p>
         <p>But here is the truth most people do not say out loud. The fitness industry has accepted slow responses, unclear timelines, equipment that sits broken for long periods, and technicians who arrive without context or accountability.</p>
         <p><em>None of this is your fault.</em></p>
-        <img src="/img/blog/blog-details/1.jpg" alt="Fitness Equipment Service" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym1.jpg" alt="Fitness Equipment Service" class="img-fluid mb-30 mt-30" width="500" height="500" />
         <p>This industry has spent years conditioning gyms to tolerate downtime. You have been told to accept delays, shrug at communication issues, and hope the next service visit goes better than the last. Meanwhile, members wonder why machines they count on are still out of order.</p>
         <p><strong>We created Fitness Room Concierge to remove that burden.</strong> At FRC our goal is simple: When your equipment runs, your business runs.</p>
         <h3 class="ltn__blog-title mt-50">DOWNTIME CREATES REAL COSTS</h3>
@@ -65,7 +65,6 @@ const getAllBlogs = () => {
             <li>When they will arrive</li>
             <li>What is actually being done</li>
         </ul>
-        <img src="/img/blog/blog-details/11.jpg" alt="Gym Service Model" class="img-fluid mb-30 mt-30" />
         <h3 class="ltn__blog-title mt-50">WE BUILT FRC AS A CONCIERGE LEVEL SOLUTION</h3>
         <p>Our service model ensures you always know who is responsible for your equipment and what the plan is. You receive:</p>
         <ul class="list-item-with-icon-2">
@@ -115,7 +114,7 @@ const getAllBlogs = () => {
             <li>A warranty issue disappears into long delays</li>
             <li>Members notice. Staff grow frustrated</li>
         </ul>
-        <img src="/img/blog/blog-details/12.jpg" alt="Gym Equipment Maintenance" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym2.jpg" alt="Gym Equipment Maintenance" class="img-fluid mb-30 mt-30"  />
         <p>The fitness industry has passionate owners and dedicated communities. What it has lacked is a service model that puts the gym first.</p>
         <h3 class="ltn__blog-title mt-50">THE CUSTOMER SHOULD ALWAYS COME FIRST</h3>
         <p>Most service systems were designed for manufacturers, not gyms. That means little focus on:</p>
@@ -126,7 +125,6 @@ const getAllBlogs = () => {
             <li>Personal accountability</li>
         </ul>
         <p><strong>We flipped that completely.</strong></p>
-        <img src="/img/blog/blog-details/1.jpg" alt="Customer Service Excellence" class="img-fluid mb-30 mt-30" />
         <p>A gym should never feel like they are chasing someone for updates. You should feel <em>supported</em>. You should feel <em>informed</em>. You should feel <em>confident</em> that your equipment will be ready.</p>
         <h3 class="ltn__blog-title mt-50">PREDICTABILITY SHOULD BE THE STANDARD</h3>
         <p>Gyms tell us the same thing: <strong>"Service is unpredictable. You never know who is coming or when."</strong></p>
@@ -185,7 +183,7 @@ const getAllBlogs = () => {
       fullContent: `
         <p class="lead">Gyms operate in a fast-growing industry, but the service model supporting them has stayed the same for decades. It is time for better clarity, better tools, and a real commitment to member experience.</p>
         <p>As the fitness industry grows, member expectations rise with it. People want clean, reliable equipment and a consistent experience every time they walk in.</p>
-        <img src="/img/blog/blog-details/11.jpg" alt="Modern Fitness Facility" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym3.jpg" alt="Modern Fitness Facility" class="img-fluid mb-30 mt-30"/>
         <p>Gyms have improved equipment layouts, programming, and overall experience. But the service model supporting equipment reliability has barely changed.</p>
         <h3 class="ltn__blog-title mt-50">GYMS NEED REAL VISIBILITY</h3>
         <p>Most facilities cannot answer simple service questions with confidence:</p>
@@ -195,7 +193,6 @@ const getAllBlogs = () => {
             <li>What was done last time?</li>
             <li>Why is the issue recurring?</li>
         </ul>
-        <img src="/img/blog/blog-details/12.jpg" alt="Service Transparency" class="img-fluid mb-30 mt-30" />
         <p>Without answers, stress increases and member experience suffers. <strong>FRC removes guesswork.</strong> You always know what is happening so your team can stay focused on members.</p>
         <h3 class="ltn__blog-title mt-50">DATA CREATES PREDICTABLE OUTCOMES</h3>
         <p>Gyms often feel reactive because they do not have accurate information. Without clear service records or predictable scheduling, issues feel random.</p>
@@ -257,7 +254,7 @@ const getAllBlogs = () => {
         <p>When people think about gym equipment service they usually think about one thing: The repair cost.</p>
         <p>What they rarely consider is everything that happens around that cost. The delays. The lost usage. The member frustration. The staff time spent tracking updates. The repeated issues caused by rushed or inconsistent work.</p>
         <p>These are the financial drains that never show up directly on a balance sheet but quietly erode profitability over time.</p>
-        <img src="/img/blog/blog-details/2.jpg" alt="Financial Impact of Equipment Downtime" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym4.jpg" alt="Financial Impact of Equipment Downtime" class="img-fluid mb-30 mt-30" />
         <p>At Fitness Room Concierge our service model is built around predictability because financial stability depends on it. The clearer your operational picture the stronger your financial outcomes.</p>
         <h3 class="ltn__blog-title mt-50">EVERY MACHINE DOWN CREATES REAL COSTS</h3>
         <p>Immediate costs include lost usage and staff interruptions. Indirect costs include member dissatisfaction, reduced retention, more stress on remaining equipment, and slower decision making.</p>
@@ -272,7 +269,6 @@ const getAllBlogs = () => {
             <li>Another issue appears</li>
         </ul>
         <p>Unplanned downtime leads to unplanned spending. Unplanned spending creates unpredictable budgets.</p>
-        <img src="/img/blog/blog-details/31.jpg" alt="Gym Financial Planning" class="img-fluid mb-30 mt-30" />
         <p>FRC focuses on clear schedules, clear timelines, and clear communication so gyms can plan responsibly.</p>
         <h3 class="ltn__blog-title mt-50">RUSHED SERVICE LEADS TO REPEATED SERVICE</h3>
         <p>When technicians are inconsistent or unfamiliar with your equipment environment the risk of repeated failures increases. A dedicated technician presence reduces that risk and increases quality.</p>
@@ -316,12 +312,11 @@ const getAllBlogs = () => {
             <li>Your members experience fewer disruptions</li>
             <li>Your long term costs become manageable</li>
         </ul>
-        <img src="/img/blog/blog-details/3.jpg" alt="Standardization in Gym Service" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym5.jpg" alt="Standardization in Gym Service" class="img-fluid mb-30 mt-30" />
         <h3 class="ltn__blog-title mt-50">INCONSISTENT SERVICE CREATES INCONSISTENT OUTCOMES</h3>
         <p>Different providers and different technicians create different results. This leads to unnecessary repairs, shortened equipment lifespan, and unreliable reporting.</p>
         <h3 class="ltn__blog-title mt-50">PREDICTABLE MAINTENANCE REDUCES AVOIDABLE SPENDING</h3>
         <p>Unplanned repairs are one of the biggest financial drains a gym can face. Standardization allows us to create a dependable schedule that reduces failures and protects equipment.</p>
-        <img src="/img/blog/blog-details/32.jpg" alt="Predictable Gym Maintenance" class="img-fluid mb-30 mt-30" />
         <h3 class="ltn__blog-title mt-50">A CONSISTENT TECHNICIAN REDUCES VARIABILITY</h3>
         <p>Familiarity creates accuracy. Accuracy reduces repeat visits.</p>
         <h3 class="ltn__blog-title mt-50">STANDARDIZATION REDUCES STAFF WORKLOAD</h3>
@@ -358,13 +353,12 @@ const getAllBlogs = () => {
       fullContent: `
         <p class="lead">Gyms operate in an environment where equipment never stops moving. The key to strong financial performance is removing the surprises that come with that constant use.</p>
         <p>Fitness facilities operate in a demanding environment where equipment is used constantly. Wear and stress are normal. What should not be normal is the unpredictability surrounding equipment service.</p>
-        <img src="/img/blog/blog-details/4.jpg" alt="High-Wear Gym Environment" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym6.jpg" alt="High-Wear Gym Environment" class="img-fluid mb-30 mt-30" />
         <p>At Fitness Room Concierge our goal is to give gyms stability in a place where most facilities experience inconsistency. Financial predictability begins with operational predictability.</p>
         <h3 class="ltn__blog-title mt-50">UNPREDICTABLE SERVICE CREATES UNPREDICTABLE BUDGETS</h3>
         <p>Breakdowns with no schedule in place, unclear details, and delayed technician arrival all add unnecessary cost. When service is unpredictable, budgets become unpredictable.</p>
         <h3 class="ltn__blog-title mt-50">PLANNED MAINTENANCE CREATES STABILITY</h3>
         <p>Predictable care extends equipment life, reduces repairs, and minimizes downtime. Predictability protects margins.</p>
-        <img src="/img/blog/blog-details/33.jpg" alt="Planned Maintenance Schedule" class="img-fluid mb-30 mt-30" />
         <h3 class="ltn__blog-title mt-50">CONSISTENCY REDUCES FINANCIAL RISK</h3>
         <p>Different technicians create different outcomes which create unexpected costs. FRC provides a consistent technician who understands your equipment and environment.</p>
         <h3 class="ltn__blog-title mt-50">CLARITY SUPPORTS BETTER DECISIONS</h3>
@@ -406,7 +400,7 @@ const getAllBlogs = () => {
         <p class="lead">A great service experience starts before the first maintenance visit. It starts with how the equipment arrives, how it is installed, and how the gym feels the moment the work is complete.</p>
         <p>Most gyms judge their service experience long before the first technician ever walks in. The tone is set during delivery and installation. If that process is rushed, sloppy, or unorganized, the gym feels it immediately. Members feel it. Staff feel it. And the relationship starts with uncertainty instead of confidence.</p>
         <p>At Fitness Room Concierge we believe delivery and installation are not just logistical tasks. They are the first impression of the entire service partnership. That moment tells the gym who we are, how we work, and what level of detail they can expect from us.</p>
-        <img src="/img/blog/blog-details/5.jpg" alt="Professional Equipment Installation" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym7.jpg" alt="Professional Equipment Installation" class="img-fluid mb-30 mt-30" />
         <p>When the beginning is strong, everything that follows becomes easier.</p>
         <h3 class="ltn__blog-title mt-50">THE FIRST EXPERIENCE CREATES LASTING EXPECTATIONS</h3>
         <p>Gyms remember how equipment was delivered, where installers placed it, how clean the space was afterward, and how organized the process felt. A smooth installation communicates professionalism without a single word spoken. A poor installation does the opposite. Confusion. Mess. Misdirected equipment. That sets the wrong foundation for the gym and for us.</p>
@@ -417,7 +411,6 @@ const getAllBlogs = () => {
         </div>
         <h3 class="ltn__blog-title mt-50">INSTALLATION MUST BE ACCURATE, CLEAN, AND WELL COORDINATED</h3>
         <p>Equipment needs to be placed correctly, assembled with precision, and tested thoroughly before anyone uses it. The gym should never feel like it needs to double check our work or finish details we missed.</p>
-        <img src="/img/blog/blog-details/34.jpg" alt="Clean and Organized Installation" class="img-fluid mb-30 mt-30" />
         <p>Our approach is simple: We do it right the first time. We clean as we go. We leave the gym better than we found it. Accuracy and attention to detail create trust.</p>
         <h3 class="ltn__blog-title mt-50">COMMUNICATION WITH THE GYM IS JUST AS IMPORTANT AS THE INSTALLATION ITSELF</h3>
         <p>Delivery and installation affect everyday operations. Floors need cleared. Members need redirected. Staff need a timeline. Without communication, these moments become disruptive.</p>
@@ -454,7 +447,7 @@ const getAllBlogs = () => {
         <p class="lead">A fast installation means nothing if it is not organized. Gyms need clarity, planning, and professionalism long before the equipment ever arrives.</p>
         <p>There is a belief in the fitness industry that the goal on installation day is simple. Get the equipment into the building as fast as possible. But speed without preparation often leads to disruption, confusion, and avoidable mistakes.</p>
         <p>At Fitness Room Concierge we know that the most important part of a smooth installation is not how quickly the equipment enters the facility. It is how well the entire process is planned, communicated, and executed from start to finish.</p>
-        <img src="/img/blog/blog-details/6.jpg" alt="Organized Installation Process" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym8.jpg" alt="Organized Installation Process" class="img-fluid mb-30 mt-30" />
         <p>When the preparation is right, the installation feels effortless. When preparation is missing, even simple installs turn into operational problems.</p>
         <h3 class="ltn__blog-title mt-50">GYMS NEED CLEAR COMMUNICATION BEFORE THE INSTALLATION BEGINS</h3>
         <p>The gym should never have to wonder when we are arriving, where the equipment is going, or what needs to be cleared. Clear communication ensures the staff knows:</p>
@@ -476,7 +469,6 @@ const getAllBlogs = () => {
             <li>Floor space not cleared</li>
             <li>Team roles not defined</li>
         </ul>
-        <img src="/img/blog/blog-details/35.jpg" alt="Installation Preparation Checklist" class="img-fluid mb-30 mt-30" />
         <p>A prepared installation team removes these variables and eliminates unnecessary delays. Preparation makes the process smooth, not speed alone.</p>
         <h3 class="ltn__blog-title mt-50">THE FLOOR SHOULD NEVER FEEL CHAOTIC</h3>
         <p>Members and staff notice the atmosphere during installation. If the team looks unorganized or unsure, the facility feels the impact. Equipment moves through active environments, and that requires calm professionalism, not rushed decisions.</p>
@@ -517,12 +509,11 @@ const getAllBlogs = () => {
         <p>Most gyms handle equipment issues with very little information. A request gets submitted. Someone is supposed to show up. Weeks pass. Updates are unclear. Members grow frustrated. Staff feel stuck. It becomes a cycle that repeats over and over again.</p>
         <p>From an operational perspective, that breakdown happens because there is no visibility. If you cannot see what is happening, you cannot manage it. And if you cannot manage it, you cannot improve it.</p>
         <p>At Fitness Room Concierge, we built our entire model around operational transparency because when gyms can finally see what is happening, everything changes. Service becomes predictable. Your team stops guessing. Members feel the difference.</p>
-        <img src="/img/blog/blog-details/7.jpg" alt="Operational Transparency Dashboard" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym9.jpg" alt="Operational Transparency Dashboard" class="img-fluid mb-30 mt-30" height="500" width="500"/>
         <h3 class="ltn__blog-title mt-50">GYMS CANNOT OPERATE ON GUESSWORK</h3>
         <p>Most gyms do not know who is coming, when they are arriving, what was done last visit, or what needs attention next. That lack of information slows down your staff and affects your member experience. You should not have to chase anyone for a simple update. You should know exactly what is happening.</p>
         <h3 class="ltn__blog-title mt-50">THE MOBILE AND WEB APP GIVE YOU REAL VISIBILITY</h3>
         <p>This is why we built the FRC platform. Our mobile and web app provide real time status, technician assignment, service history, timelines, and clear next steps. You no longer need to wonder or wait. Everything you need is visible with one glance.</p>
-        <img src="/img/blog/blog-details/13.jpg" alt="FRC Mobile Platform" class="img-fluid mb-30 mt-30" />
         <p>When you know what is happening you can make better decisions. Your staff can give accurate answers. Your members get a better experience. Clear visibility reduces stress everywhere in the building.</p>
         <h3 class="ltn__blog-title mt-50">MEETING SLAS REQUIRES A SYSTEM BUILT FOR ACCOUNTABILITY</h3>
         <p>Most service providers talk about response times. We focus on actual performance. Our app holds us accountable by tracking every step in the process. If we say we will hit a certain SLA, the platform makes sure we do it. You see the same information we see. Nothing is hidden.</p>
@@ -568,13 +559,12 @@ const getAllBlogs = () => {
         <h3 class="ltn__blog-title mt-30">UNPREDICTABLE SERVICE CREATES OPERATIONAL DISTRACTION</h3>
         <p>When you do not know when a technician is coming or what they are addressing, your team is forced into reaction mode. Staff spend time chasing updates, adjusting schedules, and trying to answer questions without information.</p>
         <p>This pulls focus away from what keeps your gym running smoothly. Predictable service eliminates the noise so your team can operate with clarity.</p>
-        <img src="/img/blog/blog-details/8.jpg" alt="Predictable Gym Operations" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym10.jpg" alt="Predictable Gym Operations" class="img-fluid mb-30 mt-30" />
         <h3 class="ltn__blog-title mt-50">THE FRC APP GIVES YOU TOTAL SERVICE VISIBILITY</h3>
         <p>Information is the most valuable operational tool. With our mobile and web app you can see every service request, technician update, status change, and completion detail in real time.</p>
         <p>No waiting for a call back. No uncertainty about next steps. No confusion. When your team has visibility, they can plan their day. They can support members better. They can communicate confidently. Visibility creates operational control.</p>
         <h3 class="ltn__blog-title mt-50">A CONSISTENT TECHNICIAN REDUCES VARIABLES</h3>
         <p>Your FRC technician learns your environment, your equipment mix, your member flow, and your recurring needs. They work more efficiently because they know what to expect. Issues get solved faster. Repeat problems become rare. Fewer variables means smoother operations.</p>
-        <img src="/img/blog/blog-details/11.jpg" alt="Consistent Technician Service" class="img-fluid mb-30 mt-30" />
         <h3 class="ltn__blog-title mt-50">PREDICTABLE MAINTENANCE IMPROVES UPTIME</h3>
         <p>Most equipment issues are preventable when the maintenance schedule is followed consistently. Predictable maintenance keeps your environment stable by addressing wear patterns before they interrupt operations.</p>
         <p>This protects uptime, reduces urgent requests, and keeps your members confident that equipment will be available when they need it. Predictability creates reliability. Reliability creates trust.</p>
@@ -612,13 +602,12 @@ const getAllBlogs = () => {
         <p>In every gym I visit, I hear the same frustrations. Service takes too long. Updates are unclear. Warranty claims feel impossible to navigate. Different technicians show up each time. Repairs are repeated. Members complain. Staff feel stuck.</p>
         <p>It would be easy to blame the service providers themselves, but the reality is deeper. The service model in this industry was built on a structure that almost guarantees inconsistency. When the system is broken, no amount of effort from a technician can fix the experience.</p>
         <p>At Fitness Room Concierge, we built our model by studying the failures built into the industry. Once you understand where the breakdown begins, it becomes clear why providers struggle and why gyms pay the price.</p>
-        <img src="/img/blog/blog-details/12.jpg" alt="Industry Service Analysis" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym11.jpg" alt="Industry Service Analysis" class="img-fluid mb-30 mt-30" />
         <h3 class="ltn__blog-title mt-50">THE INDUSTRY WAS NOT DESIGNED FOR GYM PRIORITIES</h3>
         <p>The service ecosystem was built around manufacturer requirements. That means warranty routing, certification rules, limited access to training, and slow approval processes. Gyms are left waiting while multiple layers of procedure take priority over their operational needs.</p>
         <h3 class="ltn__blog-title mt-50">WARRANTY FACILITATION IS A MAJOR PAIN POINT</h3>
         <p>Gyms are told to contact the OEM for warranty work, but the OEM often relies on a scattered network of independent providers. Those providers are not given the tools, information, or incentives to perform consistently.</p>
         <p>Warranty claims sit in review. Parts approvals stall. Communication breaks down.</p>
-        <img src="/img/blog/blog-details/1.jpg" alt="Warranty Process Challenges" class="img-fluid mb-30 mt-30" />
         <p>At FRC, our platform and operating model solve this by providing clarity, ownership, and a predictable process for warranty facilitation. Gyms receive communication instead of silence, and progress instead of waiting.</p>
         <h3 class="ltn__blog-title mt-50">OEM VIEWS OF SERVICE PROVIDERS CREATE LIMITATIONS</h3>
         <p>This cycle creates high technician turnover and unstable service capacity in the field. Gyms experience the consequences, even though they did nothing wrong. When OEMs control training and create no long term alignment, consistent performance becomes nearly impossible for traditional service providers.</p>
@@ -658,7 +647,7 @@ const getAllBlogs = () => {
         <p class="lead">Fast service is important, but consistency is what actually improves reliability and long term equipment performance.</p>
         <p>From the field level, the biggest challenge gyms face is not slow service. It is inconsistent service. When different technicians arrive on every visit, the quality of work shifts, the approach changes, and important details get lost. That inconsistency leads to repeat issues, member frustration, and unnecessary downtime.</p>
         <p>At Fitness Room Concierge we designed our service model around technician consistency because reliable outcomes come from familiar eyes, not random assignments.</p>
-        <img src="/img/blog/blog-details/2.jpg" alt="Technician Consistency" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym12.jpg" alt="Technician Consistency" class="img-fluid mb-30 mt-30" />
         <div class="ltn__blockquote-color mt-50 mb-50">
             <blockquote>
                 <h6 class="ltn__secondary-color mt-0">Speed solves a problem once. Consistency prevents it from coming back.</h6>
@@ -671,7 +660,6 @@ const getAllBlogs = () => {
             <li>Its own usage habits</li>
             <li>Its own unique wear points</li>
         </ul>
-        <img src="/img/blog/blog-details/3.jpg" alt="Gym Equipment Familiarity" class="img-fluid mb-30 mt-30" />
         <h3 class="ltn__blog-title mt-50">CONSISTENCY REDUCES REPEAT ISSUES</h3>
         <p>When a different technician shows up every time, they each start from scratch. Notes may be incomplete. Context may be missing. Work may not align with the last visit. A consistent technician understands the history of each unit and can quickly identify recurring problems before they become bigger issues. Fewer variables lead to fewer repeat issues.</p>
         <h3 class="ltn__blog-title mt-50">CONSISTENCY IMPROVES COMMUNICATION WITH STAFF</h3>
@@ -707,7 +695,7 @@ const getAllBlogs = () => {
         <p class="lead">The service experience gyms receive is only as strong as the technician delivering it. That is why we hire differently, train differently, and set a higher standard from day one.</p>
         <p>The technician is the face of the entire service experience. Because of that, who we select and how we onboard them is one of the most important parts of our entire model.</p>
         <p>At Fitness Room Concierge we do not just look for technical skill. We look for communication, professionalism, awareness, and a commitment to consistency. The goal is simple. Every technician must be able to deliver a concierge level experience.</p>
-        <img src="/img/blog/blog-details/4.jpg" alt="Technician Selection Process" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym13.jpg" alt="Technician Selection Process" class="img-fluid mb-30 mt-30" />
         <div class="ltn__blockquote-color mt-50 mb-50">
             <blockquote>
                 <h6 class="ltn__secondary-color mt-0">Skill gets the job done. Standards create a better experience.</h6>
@@ -727,7 +715,6 @@ const getAllBlogs = () => {
             <li>Proper documentation standards</li>
             <li>Guidance for interacting with gym staff and members</li>
         </ul>
-        <img src="/img/blog/blog-details/5.jpg" alt="Technician Onboarding Training" class="img-fluid mb-30 mt-30" />
         <p>This process makes sure every technician approaches the job the same way, no matter the location.</p>
         <h3 class="ltn__blog-title mt-50">THE TECHNICIAN IS TRAINED TO USE OUR APP AS A TOOL, NOT AN OBLIGATION</h3>
         <p>A major part of onboarding is learning our mobile and web app. Technicians learn how the app supports their work, helps them stay organized, and allows the gym to see exactly what is happening. They are trained to use the app as a tool that elevates their quality, not something they are forced to fill out after the fact. This is a major reason our communication is strong and consistent.</p>
@@ -766,12 +753,11 @@ const getAllBlogs = () => {
       fullContent: `
         <p class="lead">Most of the problems that slow down service never happen inside the gym. They happen behind the scenes, and gyms only see the effects. Our job is to eliminate those issues before they reach your floor.</p>
         <p>In reality most of the issues that delay repairs happen behind the scenes long before a technician ever steps into your facility. These failures are built into the way the industry operates. Gyms feel the frustration, but they rarely see the true cause. At Fitness Room Concierge we built our model to prevent these problems from reaching you, because your members should never feel the impact of someone else's breakdown.</p>
-        <img src="/img/blog/blog-details/6.jpg" alt="Behind the Scenes Service Challenges" class="img-fluid mb-30 mt-30" />
+        <img src="/img/blog/blog-details/gym14.jpg" alt="Behind the Scenes Service Challenges" class="img-fluid mb-30 mt-30" />
         <h3 class="ltn__blog-title mt-50">OEM COMMUNICATION DELAYS CAN STOP SERVICE BEFORE IT EVEN STARTS</h3>
         <p>A major part of service in this industry involves OEM approvals for parts, warranty coverage, and technical information. OEM response times can vary widely, and some requests sit untouched for days or even weeks. At FRC we stay on top of every communication. We keep the gym updated, push for faster responses, and provide clarity instead of silence. Behind the scenes we do the chasing so you do not have to.</p>
         <h3 class="ltn__blog-title mt-50">SERVICE REQUESTS OFTEN GET MISROUTED BEFORE THEY REACH A TECHNICIAN</h3>
         <p>Traditional service networks rely on call centers, shared inboxes, and outdated routing systems. Requests get lost, mislabeled, or handed to contractors who do not have the right history or context. Our platform eliminates this by centralizing every request and assigning it to the same technician who knows your gym. Nothing gets lost in translation because there is nothing to translate.</p>
-        <img src="/img/blog/blog-details/7.jpg" alt="Centralized Service Platform" class="img-fluid mb-30 mt-30" />
         <h3 class="ltn__blog-title mt-50">PARTS DELAYS ARE A REALITY, BUT HOW THEY ARE MANAGED MAKES THE DIFFERENCE</h3>
         <p>Parts sourcing can be unpredictable across different equipment brands. Many providers simply wait for shipments with no communication. We solve this with proactive communication. You always know where things stand, what is on order, and when it is expected. Visibility reduces frustration and keeps your staff informed.</p>
         <h3 class="ltn__blog-title mt-50">INCONSISTENT DOCUMENTATION CREATES REPEAT ISSUES</h3>

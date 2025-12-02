@@ -81,12 +81,12 @@ const BlogDetailsPrimary = () => {
                       <i className="far fa-calendar-alt"></i>
                       {publishDate}
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="#comments">
                         <i className="far fa-comments"></i>
                         {totalComments} Comments
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: fullContent }} />
