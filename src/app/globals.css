@@ -194,6 +194,19 @@ font-family: 'Rajdhani', sans-serif;
     }
 }
 
+
+
+/* Custom 5-column layout for Large Screens only */
+@media (min-width: 992px) {
+  .col-lg-5-cols {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+
+
+
 /* ----------------------------------------------------
     Normalize    071C1F   0E292D
 ---------------------------------------------------- */

@@ -15,7 +15,7 @@ const IndexMain = () => {
     <main>
         <Hero5 />
         <About2 />
-        <Features2 />
+        <Features2 />   {/* Core Features Component*/}
         {/*<Features3 />*/}
         <Portfolio2 />
         <Services3 />
