@@ -21,14 +21,14 @@ const Copyright = () => {
                   />
                 </Link>
               </div>
-              <div className="get-support ltn__copyright-design clearfix">
+              {/* <div className="get-support ltn__copyright-design clearfix">
                 <div className="get-support-info">
                   <h6>Copyright & Design By</h6>
                   <h4>
                     Company - <span className="current-year"></span>
                   </h4>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-md-6 col-12 align-self-center">
