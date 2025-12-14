@@ -92,10 +92,10 @@ const getAllProducts = () => {
     [store71.src, store72.src, store73.src, store74.src, store75.src, store76.src, store77.src],
     [store81.src, store82.src, store83.src, store84.src, store85.src, store86.src, store87.src],
     [store91.src, store92.src, store93.src, store94.src, store95.src, store96.src, store97.src],
-    [store101.src, store102.src, store103.src],
+    // [store101.src, store102.src, store103.src],
     [store111.src, store112.src, store113.src],
-    [store121.src, store122.src, store123.src, store124.src],
-    [store131.src, store132.src, store133.src, store134.src, store135.src, store136.src],
+    // [store121.src, store122.src, store123.src, store124.src],
+    // [store131.src, store132.src, store133.src, store134.src, store135.src, store136.src],
   ];
 
   const products = [...allProducts]?.map((product, idx) => {
