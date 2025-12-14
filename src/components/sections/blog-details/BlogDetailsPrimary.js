@@ -73,7 +73,7 @@ const BlogDetailsPrimary = () => {
                   <ul>
                     <li className="ltn__blog-author">
                       <Link href={`/blogs?author=${makePath(author?.name)}`}>
-                        <Image src={author?.image} alt="#" />
+                        {/* <Image src={author?.image} alt="#" /> */}
                         By: {author?.name}
                       </Link>
                     </li>
@@ -187,9 +187,9 @@ const BlogDetailsPrimary = () => {
               {/* <!-- comment-area --> */}
               <div className="ltn__comment-area mb-50" id="comments">
                 <div className="ltn-author-introducing clearfix">
-                  <div className="author-img">
+                  {/* <div className="author-img">
                     <Image src={author?.image} alt="Author Image" />
-                  </div>
+                  </div> */}
                   <div className="author-info">
                     <h6>Written by</h6>
                     <h1>{author?.name}</h1>
