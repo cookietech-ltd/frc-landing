@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import bgImage15 from "@/assets/img/bg/frc_bg.jpg";
 
+
 const Video = () => {
   return (
     <div className="ltn__video-popup-area ltn__video-popup-margin">

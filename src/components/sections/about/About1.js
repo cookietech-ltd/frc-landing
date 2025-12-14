@@ -3,7 +3,7 @@ import React from "react";
 
 const About1 = () => {
     return (
-        <div className="ltn__about-us-area pt-115 pb-95">
+        <div className="ltn__about-us-area pt-115 pb-115">
             <div className="container">
                 <div className="row">
                     <div className=" align-self-center">

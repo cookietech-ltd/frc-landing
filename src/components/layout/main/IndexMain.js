@@ -21,7 +21,7 @@ const IndexMain = () => {
         <Services3 />
         <HotDeal2 />
         <About1 />
-        <Video />
+        {/* <Video /> */}
         <CounterUp />
         <Blogs2 />
     </main>
