@@ -56,7 +56,7 @@ const CounterUp = () => {
               <div className="ltn__counterup-item-3 text-color-white">
                 <div className="counter-icon"> {"//"} </div>
                 <h1>
-                  {num != null && <span className="counter">{num}</span>}
+                  {num != null && <span className="counter">{num.toLocaleString()}</span>}
                   {letter && <span className="counterUp-letter">{letter}</span>}
                   <span className="counterUp-icon">{sym}</span>
                 </h1>
@@ -69,7 +69,7 @@ const CounterUp = () => {
     </div>
   );
 };
-
+export default CounterUp;
 
 
 
@@ -113,4 +113,4 @@ const CounterUp = () => {
     //   </div>
     // </div>
 
-export default CounterUp;
+
