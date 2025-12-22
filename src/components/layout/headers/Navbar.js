@@ -66,6 +66,10 @@ const Navbar = () => {
               ) : (
                 ""
               )}
+              {/* Login link */}
+              <li className="special-link">
+                <Link href="https://frontend-service-974033975836.us-central1.run.app/login">LOGIN</Link>
+              </li>
             </ul>
           </div>
         </nav>
